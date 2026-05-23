@@ -1,0 +1,56 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  name         String
+  passwordHash String
+  createdAt    DateTime @default(now())
+  places       Place[]
+  comparisons  Comparison[]
+}
+
+model Place {
+  id              String      @id @default(cuid())
+  userId          String
+  name            String
+  lat             Float
+  lng             Float
+  cuisine         String
+  priceTier       Int // 1 = under 150 Br, 2 = 150-500 Br, 3 = 500+ Br
+  status          PlaceStatus
+  note            String?
+  tags            String      @default("") // comma-separated
+  visitCount      Int         @default(0)
+  position        Int? // cached rank position among the user's "been" places (1-based); null = pending rank
+  statusEnteredAt DateTime    @default(now())
+  user            User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  comparisons     Comparison[] @relation("WinnerPlace")
+  lostComparisons Comparison[] @relation("LoserPlace")
+
+  @@index([userId, status])
+}
+
+enum PlaceStatus {
+  BEEN
+  WANT_TO_TRY
+}
+
+model Comparison {
+  id       String  @id @default(cuid())
+  userId   String
+  winnerId String
+  loserId  String
+  user     User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+  winner   Place   @relation("WinnerPlace", fields: [winnerId], references: [id], onDelete: Cascade)
+  loser    Place   @relation("LoserPlace", fields: [loserId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
