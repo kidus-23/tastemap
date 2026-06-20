@@ -1,54 +1,29 @@
-# tastemap (working name)
+# Product definition — Tastemap (Addis Ababa edition)
 
-Second scratch document for the same idea. Rougher than I'd like admitted
-in public, but this is the planning pen.
+## What we're building
 
-## What this is
+Tastemap is a personal restaurant map and honestly-ranked list of every place you've eaten and every place you still want to try in **Addis Ababa**. It replaces star ratings with head-to-head comparisons: instead of "4 stars," a place earns its rank by being compared — "**which was better, A or B?**" — against places you've already been. The result is an ordered list overlaid on a real map of the city.
 
-A personal restaurant map + ranking app for **Addis Ababa**. Log every place
-you've eaten, and let a place *earn* its rank by way of small head-to-head
-questions ("which was better — A or B?"), instead of stars that celebrate
-everything at 4.
+## Who it's for
 
-This adapts the Frontend Mentor "restaurant ranking" challenge (product
-challenge, no Figma file — all design decisions are mine) to my own city.
-Most public builds of this challenge are on the London sample data, so I'm
-writing the spec down fresh for Addis and seeding the comparison history
-myself. The brief itself I reconstructed from other builders' READMEs —
-because it works.
+- **The Addis regular** — someone who eats out in Bole, Kazanchis, Piassa or Gerji often enough that "which one is my favorite?" is becoming a blur. They want a trustworthy personal ranking, and to remember that one kitfo spot from Meskel Flower Road.
+- **The explorer** — someone compiling a want-to-try list (the buna bet they keep walking past on Ethiopia St, the momo place everyone brings up) and actually making it there.
+- **The undecided pair** — friends, a partner, a family trying to answer "where should we eat tonight?" without another 20-minute scroll of group-chat links.
 
-## What a user does
+## Why it matters
 
-1. Open the app cold — no login. The map is already warm: a handful of real
-   Addis restaurants, ranked, each with a one-line note my past self would
-   have written.
-2. Add a place you've actually been to (name + a point on the map is enough;
-   a search field and tags and a note are nice but optional).
-3. Answer a couple of head-to-head questions. The place slots in ~3-4.
-4. Keep a want-to-try list for places you haven't been yet. Legend: the one
-   you're certain about is a warmer pin.
+Every other app ranks other people's opinions with stars and ads. Tastemap ranks **your** opinions against **each other**. That distinction — honest relative ordering on a real map of Addis — is the product.
 
-## Ranking rules (draft)
+## The one-line pitch
 
-- Only "been" places carry a rank; want-to-try has none.
-- A brand-new been place compares with the current list at position by
-  binary insertion … questions: ceil(log2(n+1)).
-- Ties: keep both in place, prefer newest locally, but never claim false
-  precision — the UI will simply not show an invented half-rank.
-- Delete: a deleted place removes its comparisons with it (no orphans).
+> A map of every place you've eaten in Addis, ranked honestly by real head-to-head comparisons — so "where should we eat?" gets answered in two taps.
 
-## Non-goals (for now)
+## Design philosophy
 
-- No reviews, comments, or social layer.
-- No photo uploads — OSM tiles and text are enough for v1.
-- No API keys anywhere. OSM tiles + Nominatim are free at the needed volume.
+- **The map is the centerpiece.** The list is its ranked legend; both are the same dataset.
+- **Honesty over polish.** If the rank can't be decided yet, the app says so instead of inventing a number.
+- **Addis in, London out.** Currency is birr (Br), neighborhoods are real (Bole, Piassa, Kazanchis, Gerji, Old Airport, Sarbet, Megenagna), cuisine mix centers on Ethiopian food without treating it as the only one — Italian (Castelli's, a Piassa institution since 1948), Chinese, momos, brunch, coffee culture from Tomoca to third-wave.
 
-## Data
+## What makes a "product challenge" different
 
-Seed data: hand-curated. Real venues and my actual picks — Yod Abyssinia,
-2000 Habesha, Castelli's, Tomoca, Kaldi's, Sishu Burger, Social Momo —
-plus a want-to-try pile for places I keep meaning to get to.
-Neighborhood-grade coordinates are enough (Bole, Kazanchis, Piassa, Old
-Airport, Gerji, Sarbet). A "which did you prefer" pile of ~25 prior
-matchups walks the seed list into a deterministic rank order I actually
-agree with.
+There's no Figma file. Three features are intentionally unspecified (ranking experience, the "where should we eat?" moment, map⇄list sync) — our answers live in [docs/design-challenges.md](./design-challenges.md).
