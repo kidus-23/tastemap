@@ -1,0 +1,108 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+@import "leaflet.markercluster/dist/MarkerCluster.css";
+@import "leaflet.markercluster/dist/MarkerCluster.Default.css";
+
+/* Grove palette — warm paper, deep green, mustard */
+:root {
+  --paper: #faf6ef;
+  --ink: #22301f;
+  --pine: #2f5233;
+  --pine-deep: #24402a;
+  --pine-soft: #e4ece2;
+  --mustard: #d19a2f;
+  --mustard-deep: #a97614;
+  --mustard-soft: #f6e8c9;
+  --card: #ffffff;
+  --line: #e6ddcd;
+  --muted: #77806e;
+  --danger: #b23a2f;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-pine: var(--pine);
+  --color-pine-deep: var(--pine-deep);
+  --color-pine-soft: var(--pine-soft);
+  --color-mustard: var(--mustard);
+  --color-mustard-deep: var(--mustard-deep);
+  --color-mustard-soft: var(--mustard-soft);
+  --color-card: var(--card);
+  --color-line: var(--line);
+  --color-muted: var(--muted);
+  --color-danger: var(--danger);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-fraunces);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Leaflet pin maker — numbered green "been" pins / mustard want-to-try */
+.tm-pin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50% 50% 50% 4px;
+  transform: rotate(-45deg);
+  cursor: pointer;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 6px rgb(34 48 31 / 35%);
+}
+.tm-pin-inner {
+  transform: rotate(45deg);
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1;
+}
+.tm-pin-been {
+  background: var(--pine);
+  color: #fff;
+}
+.tm-pin-want {
+  background: var(--mustard);
+  color: #3c2d05;
+}
+.tm-pin-active {
+  outline: 3px solid var(--mustard);
+  outline-offset: 2px;
+  z-index: 1000 !important;
+}
+.tm-pin:focus-visible {
+  outline: 3px solid var(--mustard);
+  outline-offset: 2px;
+}
+
+/* Tame Leaflet's default focus + cluster text */
+.leaflet-container {
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+.marker-cluster {
+  background: rgb(47 82 51 / 25%);
+}
+.marker-cluster div {
+  background: var(--pine);
+  color: #fff;
+  font-weight: 700;
+}
+
+/* the shuffle animation for Surprise Me */
+@keyframes tm-shuffle {
+  0% { opacity: 0.15; }
+  100% { opacity: 1; }
+}
+.tm-shuffle {
+  animation: tm-shuffle 90ms linear 6 alternate;
+}
+@media (prefers-reduced-motion: reduce) {
+  .tm-shuffle {
+    animation: none;
+  }
+}
