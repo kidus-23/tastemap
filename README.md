@@ -4,6 +4,34 @@ A restaurant map and ranking app for Addis Ababa, Ethiopia. Log the places you'v
 
 This is my take on the [Frontend Mentor "restaurant ranking" challenge](https://www.frontendmentor.io), rebuilt for my own city instead of the London sample data. I reconstructed the brief from other builders' repos (details down in Credits) and wrote my own product spec, seed data, and design docs for Addis — they all live in [`docs/`](docs).
 
+> [!NOTE]
+> To see how chaotic a project like this really was, look at the [commit history](https://github.com/kidus-23/tastemap/commits/main) — it spans a few months, from a half-finished ranking module to the finished app.
+
+## Screenshots
+
+![Landing page](docs/screenshots/landing.png)
+
+![Desktop dashboard](docs/screenshots/dashboard-desktop.png)
+
+**Place detail** (opened from either the list or the map):
+
+![Place detail](docs/screenshots/detail-desktop.png)
+
+**Head-to-head ranking** — every new "been" place slots in through a few quick questions:
+
+![Comparison flow](docs/screenshots/compare-question.png)
+
+And the verdict it eventually gives you:
+
+![Rank announcement](docs/screenshots/compare-settled.png)
+
+**On a phone** — the list first, one tap for the map:
+
+<p float="left">
+  <img src="docs/screenshots/mobile-list.png" width="320" />
+  <img src="docs/screenshots/mobile-map.png" width="320" />
+</p>
+
 ## Why there are no stars
 
 Everyone rates restaurants on a one-to-five scale, and it stops being meaningful around the third favorite. If all my usual kitfo spots get four stars, I've learned nothing about which one to actually go back to.
