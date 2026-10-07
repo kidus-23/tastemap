@@ -1,0 +1,2529 @@
+{
+ "retrieved": "2026-10-07",
+ "places": [
+  {
+   "beuId": 807,
+   "name": "Sichuan Restaurant",
+   "address": "Kazanchis oromia bank 3rd floor",
+   "lat": 9.016714,
+   "lng": 38.76606,
+   "ratingAvg": 4.33,
+   "ratingCount": 6,
+   "histogram": [
+    5,
+    0,
+    0,
+    0,
+    1
+   ],
+   "seedMatch": true,
+   "comments": []
+  },
+  {
+   "beuId": 854,
+   "name": "Tomoca | 22",
+   "address": "Around 22",
+   "lat": 9.0065964,
+   "lng": 38.7841513,
+   "ratingAvg": 5,
+   "ratingCount": 1,
+   "histogram": [
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "seedMatch": true,
+   "comments": []
+  },
+  {
+   "beuId": 50,
+   "name": "Celavie Chicken And Burger",
+   "address": "Bole Brass Near to Dildiy",
+   "lat": 8.990148,
+   "lng": 38.79292,
+   "ratingAvg": 4,
+   "ratingCount": 196,
+   "histogram": [
+    115,
+    26,
+    20,
+    10,
+    25
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "BINIYAM",
+     "date": "2022-12-21",
+     "rating": 2,
+     "food": "Fasting Vegetable Pizza",
+     "text": "Long waiting time 🥱🥱"
+    },
+    {
+     "name": "Tsegi Mesele",
+     "date": "2022-12-06",
+     "rating": 5,
+     "food": "Club Sandwich",
+     "text": "Napkins better to include with the packaging."
+    },
+    {
+     "name": "fila",
+     "date": "2022-11-20",
+     "rating": 1,
+     "food": "Club Sandwich",
+     "text": "No kechup im very dissapointed."
+    },
+    {
+     "name": "nati",
+     "date": "2022-11-03",
+     "rating": 1,
+     "food": "Hum Burger",
+     "text": "Photo lay yalwna ymtaw chrash aygenagnm kzkazak new"
+    },
+    {
+     "name": "nati",
+     "date": "2022-11-03",
+     "rating": 1,
+     "food": "Beef Pizza",
+     "text": "Photo lay yalewna yemetaw chrash aygenagnm"
+    },
+    {
+     "name": "saron",
+     "date": "2022-10-29",
+     "rating": 2,
+     "food": "Jambo Burger",
+     "text": "The extra mayonnaise I ordered but payed for didn’t come. The food has no receipt so I’m not sure where it even came from."
+    },
+    {
+     "name": "philipos abate",
+     "date": "2022-10-16",
+     "rating": 1,
+     "food": "Fried chicken",
+     "text": "It’s different pictures and what we get, totally not good"
+    },
+    {
+     "name": "yordanos",
+     "date": "2022-09-25",
+     "rating": 1,
+     "food": "Pineapple Juice",
+     "text": "juiceu gmash new teamu gn arif new"
+    }
+   ]
+  },
+  {
+   "beuId": 317,
+   "name": "Chanoly Noodles | Summit",
+   "address": "Bole, Summit",
+   "lat": 9.011385,
+   "lng": 38.851251,
+   "ratingAvg": 4.22,
+   "ratingCount": 167,
+   "histogram": [
+    109,
+    26,
+    8,
+    8,
+    16
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Melecot Getachew",
+     "date": "2022-12-30",
+     "rating": 2,
+     "food": "Stir Fry Beef Noodle",
+     "text": "Some of the beef had minced bone in it which was pretty annoying"
+    },
+    {
+     "name": "Natasha",
+     "date": "2022-12-26",
+     "rating": 1,
+     "food": "Stir Fry Combo Special",
+     "text": "I don't like today's combo noodles"
+    },
+    {
+     "name": "Tadios Negash",
+     "date": "2022-12-22",
+     "rating": 2,
+     "food": "Vegetable Fried Rice",
+     "text": "No spoon or fork ... Very poor"
+    },
+    {
+     "name": "deborah Shimeles",
+     "date": "2022-12-22",
+     "rating": 5,
+     "food": "Stir Fry Veggie Noodle",
+     "text": "It was my first time using this delivery service and I have found it very good and fast, thank you !"
+    },
+    {
+     "name": "nahom",
+     "date": "2022-12-17",
+     "rating": 1,
+     "food": "Stir Fry Combo Special",
+     "text": "today the food was worest,the portion was very bad.i am disappointed"
+    },
+    {
+     "name": "Natnael Asheber",
+     "date": "2022-11-22",
+     "rating": 5,
+     "food": "Chicken Salad | Half",
+     "text": "It was a very good food try it out"
+    },
+    {
+     "name": "selam",
+     "date": "2022-11-21",
+     "rating": 1,
+     "food": "Fish Sizzling",
+     "text": "Horrible. Used to be great."
+    },
+    {
+     "name": "Mardokay Ashagrie",
+     "date": "2022-11-18",
+     "rating": 4,
+     "food": "Stir Fry Combo Special",
+     "text": "The noodle is a little bit dray"
+    }
+   ]
+  },
+  {
+   "beuId": 43,
+   "name": "Divine Burger",
+   "address": "Bole, Beside Sheger Building",
+   "lat": 8.998391,
+   "lng": 38.785405,
+   "ratingAvg": 4.19,
+   "ratingCount": 159,
+   "histogram": [
+    92,
+    33,
+    18,
+    5,
+    11
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Selamawit",
+     "date": "2022-11-30",
+     "rating": 4,
+     "food": "Divine Junkie",
+     "text": "Love the burger. Would be nice if there was more ketchup"
+    },
+    {
+     "name": "nahom",
+     "date": "2022-11-01",
+     "rating": 4,
+     "food": "California Style",
+     "text": "Better than the others fair burger at it is servered in the house!"
+    },
+    {
+     "name": "messi",
+     "date": "2022-10-31",
+     "rating": 5,
+     "food": "Divine Junkie",
+     "text": "It was so Awesome"
+    },
+    {
+     "name": "Brook",
+     "date": "2022-10-30",
+     "rating": 3,
+     "food": "Triple Staffed Burger",
+     "text": "Portion is decent, overall taste..they can do better, the beef is also undercooked."
+    },
+    {
+     "name": "mahlet g",
+     "date": "2022-10-30",
+     "rating": 5,
+     "food": "Double Spicy Burger",
+     "text": "Amazing double spicy burger. I like it spicy and it was exactly to my liking. Will definitely order again."
+    },
+    {
+     "name": "BeakalT",
+     "date": "2022-10-29",
+     "rating": 5,
+     "food": "Triple Staffed Burger",
+     "text": "Great taste and the delivery man is great and is on time"
+    },
+    {
+     "name": "Mhireteab",
+     "date": "2022-10-29",
+     "rating": 4,
+     "food": "Triple Staffed Burger",
+     "text": "The burger was sick....I've never had this kinda burger, only the foil was a drawback, if yu had delivered with better equipment, I woulda given yu 5 stars, but overall it was delicious"
+    },
+    {
+     "name": "Haimanot",
+     "date": "2022-10-11",
+     "rating": 5,
+     "food": "California Style",
+     "text": "Devine never disapponts."
+    }
+   ]
+  },
+  {
+   "beuId": 59,
+   "name": "Ristorante Pizzeria Italia",
+   "address": "Beside Examination Agency In Front Of St. Mary's Church",
+   "lat": 9.0370502,
+   "lng": 38.7628934,
+   "ratingAvg": 3.62,
+   "ratingCount": 180,
+   "histogram": [
+    84,
+    28,
+    22,
+    7,
+    39
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Pienel Tafesse",
+     "date": "2022-12-27",
+     "rating": 5,
+     "food": "Pizza Cheese Curst",
+     "text": "I can't stop eating so yummy 😋"
+    },
+    {
+     "name": "Pienel Tafesse",
+     "date": "2022-12-27",
+     "rating": 5,
+     "food": "Combo Pizza + Free Coca",
+     "text": "It's the best place to eat pizza, you'll should check it😊"
+    },
+    {
+     "name": "Marth",
+     "date": "2022-12-17",
+     "rating": 1,
+     "food": "Tagliatelle",
+     "text": "Over cooked pasta with watey sauce :/"
+    },
+    {
+     "name": "Teddy",
+     "date": "2022-12-11",
+     "rating": 5,
+     "food": "Combo Pizza + Free Coca",
+     "text": "በጣም ይጣፍጣል በተለይ በርገሩ"
+    },
+    {
+     "name": "Biruk_g1",
+     "date": "2022-11-21",
+     "rating": 5,
+     "food": "Combo Pizza + Free Coca",
+     "text": "It’s nice 😊 i love it"
+    },
+    {
+     "name": "Bethlehem Andarge",
+     "date": "2022-11-17",
+     "rating": 2,
+     "food": "Penne Picante",
+     "text": "It was mediocre, you guys can do better"
+    },
+    {
+     "name": "Bt Gamer",
+     "date": "2022-11-17",
+     "rating": 1,
+     "food": "Beef Burger",
+     "text": "Meslu lay endmitayew adadelem"
+    },
+    {
+     "name": "Abel",
+     "date": "2022-11-11",
+     "rating": 1,
+     "food": "Lasagna Al Forno",
+     "text": "It sucks worst investment"
+    }
+   ]
+  },
+  {
+   "beuId": 469,
+   "name": "Awra Chicken",
+   "address": "Gerji on the way to kadisko hospital sround oromiya bank",
+   "lat": 8.994696034,
+   "lng": 38.813676092,
+   "ratingAvg": 3.07,
+   "ratingCount": 163,
+   "histogram": [
+    50,
+    22,
+    29,
+    14,
+    48
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Ted.",
+     "date": "2022-11-17",
+     "rating": 1,
+     "food": "Jambo Burger",
+     "text": "It used to be good, but now it's crap"
+    },
+    {
+     "name": "Nardos",
+     "date": "2022-11-14",
+     "rating": 1,
+     "food": "Awra Special Buger",
+     "text": "Disgusting! Betam yasazinal. 270 birr lezih kefafi migib."
+    },
+    {
+     "name": "Abdirahman Faarah",
+     "date": "2022-10-16",
+     "rating": 1,
+     "food": "Half Chicken",
+     "text": "if there was no star i would give it to this restaurant ,,  literally no chicken just bones honestly they should be ashamed sooo disgraceful"
+    },
+    {
+     "name": "Zerfu",
+     "date": "2022-10-14",
+     "rating": 5,
+     "food": "Full Chicken",
+     "text": "Perfecto.keep it up."
+    },
+    {
+     "name": "Surafel",
+     "date": "2022-10-04",
+     "rating": 5,
+     "food": "Awra Special Buger",
+     "text": "The food was very nice but i didn't get any French fries"
+    },
+    {
+     "name": "Samuel",
+     "date": "2022-10-02",
+     "rating": 3,
+     "food": "Full Chicken",
+     "text": "It’s really nice and delicious I enjoyed it kelp it up well ,"
+    },
+    {
+     "name": "Geta",
+     "date": "2022-10-01",
+     "rating": 3,
+     "food": "Full Chicken",
+     "text": "....the portion is small."
+    },
+    {
+     "name": "Neba",
+     "date": "2022-09-24",
+     "rating": 1,
+     "food": "Jambo Burger",
+     "text": "What kinds of burger is this there is no catchup also have extra payment for extra mioneiose. am apset."
+    }
+   ]
+  },
+  {
+   "beuId": 414,
+   "name": "OSCAR CHICKEN",
+   "address": "Balderas codominiyam Abisinya bank/Serge Adarash  fit lefit",
+   "lat": 9.02672646978131,
+   "lng": 38.78283549126757,
+   "ratingAvg": 3.65,
+   "ratingCount": 113,
+   "histogram": [
+    47,
+    24,
+    15,
+    9,
+    18
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Azeb",
+     "date": "2022-12-24",
+     "rating": 4,
+     "food": "Half Chicken",
+     "text": "Good price with timely delivery"
+    },
+    {
+     "name": "Solomon",
+     "date": "2022-11-24",
+     "rating": 3,
+     "food": "Half Chicken",
+     "text": "Portion a little small, given that it is to be half a chicken. Rice a little dry!"
+    },
+    {
+     "name": "kebede",
+     "date": "2022-11-18",
+     "rating": 1,
+     "food": "1/4 Chicken",
+     "text": "This food is very bad"
+    },
+    {
+     "name": "ttt",
+     "date": "2022-11-15",
+     "rating": 1,
+     "food": "Full Chicken",
+     "text": "ሙሉ ብላችሁ ግማሽ ነው እንዴ የምትልኩት በጣም ያሳፍራል"
+    },
+    {
+     "name": "ሠይፉ ንጋቱ",
+     "date": "2022-11-06",
+     "rating": 2,
+     "food": "1/4 Chicken",
+     "text": "ቦታውን ሳያረጋግጡ ከተቀበሉ በኋላ አልመጣም ማለት ከዛም ቀጥሎ ተጨማሪ ማስከፈል fair አይደለም"
+    },
+    {
+     "name": "Misbah",
+     "date": "2022-10-17",
+     "rating": 5,
+     "food": "Half Chicken",
+     "text": "Nice Chicken. Wish the rice was Basmati."
+    },
+    {
+     "name": "Aman",
+     "date": "2022-10-04",
+     "rating": 5,
+     "food": "1/4 Chicken",
+     "text": "Very nice thank u so much"
+    },
+    {
+     "name": "John",
+     "date": "2022-09-22",
+     "rating": 1,
+     "food": "Tuna Sandwich",
+     "text": "It's not a food I'm very despondent never to use beu"
+    }
+   ]
+  },
+  {
+   "beuId": 12,
+   "name": "Bella Ciao Chickenn",
+   "address": "Bole Brass, Infront of Brass Hospital, On the Building beside Dashen bank, 1st floor",
+   "lat": 8.9905936,
+   "lng": 38.7927571,
+   "ratingAvg": 3.68,
+   "ratingCount": 111,
+   "histogram": [
+    56,
+    14,
+    11,
+    10,
+    20
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Endalk",
+     "date": "2022-11-01",
+     "rating": 1,
+     "food": "Special Fetira",
+     "text": "I didn't expect such a low standard special burger... It's disappointing!"
+    },
+    {
+     "name": "Biruk_g1",
+     "date": "2022-11-01",
+     "rating": 1,
+     "food": "Special Fetira",
+     "text": "The test is not good I don’t like the way they packed the food and the size is so small"
+    },
+    {
+     "name": "yordanos",
+     "date": "2022-10-28",
+     "rating": 1,
+     "food": "Chicken Shawarma",
+     "text": "The food on the image and what was delivered are not the same to be honest this always happens on your food delivery service. So it's better for you to live up to your word if not why are just talking our money and not delivering the proper food. It's honestly a shame to use your service. This always happens"
+    },
+    {
+     "name": "Sa",
+     "date": "2022-10-24",
+     "rating": 1,
+     "food": "Mango Shake",
+     "text": "I did not get my order yet ???"
+    },
+    {
+     "name": "Redeat Seyoum",
+     "date": "2022-10-06",
+     "rating": 1,
+     "food": "Beef Patty",
+     "text": "I didn't get what I ordered call if you can"
+    },
+    {
+     "name": "Selam",
+     "date": "2022-09-12",
+     "rating": 1,
+     "food": "Chicken Nuggets",
+     "text": "Dry as heck ????????"
+    },
+    {
+     "name": "እሌኒ",
+     "date": "2022-09-06",
+     "rating": 1,
+     "food": "Chicken Nuggets",
+     "text": "the meat have a different taste like it’s was little bit difficult to eat"
+    },
+    {
+     "name": "Mahlet",
+     "date": "2022-09-02",
+     "rating": 5,
+     "food": "Mango Shake",
+     "text": "Wow was so delicious"
+    }
+   ]
+  },
+  {
+   "beuId": 506,
+   "name": "Maya Juice / Gerji",
+   "address": "Gerji , Sunshine",
+   "lat": 8.994792441615251,
+   "lng": 38.81075673540172,
+   "ratingAvg": 4.47,
+   "ratingCount": 81,
+   "histogram": [
+    66,
+    5,
+    0,
+    2,
+    8
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Faf",
+     "date": "2022-10-16",
+     "rating": 5,
+     "food": "Mixed Shake",
+     "text": "Bewnetu temesgagn driver new"
+    }
+   ]
+  },
+  {
+   "beuId": 488,
+   "name": "Akwaba",
+   "address": "Bole, Next to Mimi's Addis Restaurant",
+   "lat": 9.0000072,
+   "lng": 38.784173,
+   "ratingAvg": 4.38,
+   "ratingCount": 72,
+   "histogram": [
+    49,
+    13,
+    2,
+    4,
+    4
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Kim",
+     "date": "2022-11-01",
+     "rating": 5,
+     "food": "Cheese Burger",
+     "text": "This burger is sth else. I was disappointed when i ordered some burger bars here and there but this burger is way better than expectation."
+    },
+    {
+     "name": "Elu",
+     "date": "2022-10-29",
+     "rating": 2,
+     "food": "Double Cheese Burger",
+     "text": "The fries is smaller than when using at the restaurant The meat had a bad odor.It seems as if it was cooked carelessly."
+    },
+    {
+     "name": "hanan",
+     "date": "2022-10-28",
+     "rating": 4,
+     "food": "Cheese Burger",
+     "text": "Very nice but the chips needed more salt"
+    },
+    {
+     "name": "BINIYAM",
+     "date": "2022-10-20",
+     "rating": 1,
+     "food": "Cheese Burger",
+     "text": "Don't order pls u will regret it doesn't taste like burger 🤮🤮 🤮🤮"
+    },
+    {
+     "name": "Shemsu",
+     "date": "2022-10-04",
+     "rating": 4,
+     "food": "Double Cheese Burger",
+     "text": "ጣዕሙ አሪፍ ነው። የቺፕስ ብዛቱም ደስ ይላል። ግን 5 star ለመስጠት ትንሽ የሚቀረው ነገር አለ። ሌላ ሰው እንዲበላውም ሪኮመንድ አደርጋለሁ"
+    },
+    {
+     "name": "Tsegaye",
+     "date": "2022-09-24",
+     "rating": 1,
+     "food": "BBQ Double Cheese Burger",
+     "text": "Would've loved to rate the food but it's still not here,almost two hours waiting,it's not raining so don't blame it on the weather this time around."
+    }
+   ]
+  },
+  {
+   "beuId": 315,
+   "name": "Chanoly Noodles | Lebu",
+   "address": "Lebu",
+   "lat": 8.950456243,
+   "lng": 38.7276268,
+   "ratingAvg": 3.97,
+   "ratingCount": 78,
+   "histogram": [
+    44,
+    11,
+    8,
+    7,
+    8
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Sam",
+     "date": "2022-12-22",
+     "rating": 1,
+     "food": "Green Smoothie",
+     "text": "ቢያንስ decryption ቢኖረው ጥሩ ነበር እዛ ላይ የሚለው customers best choose ነው simeta gn lemayawkew sew kisara new"
+    },
+    {
+     "name": "Sam",
+     "date": "2022-12-22",
+     "rating": 1,
+     "food": "Blue Lagoon Mojito",
+     "text": "ቢያንስ decryption ቢኖረው ጥሩ ነበር እዛ ላይ የሚለው customers best choose ነው simeta gn lemayawkew sew kisara new"
+    },
+    {
+     "name": "Sam",
+     "date": "2022-12-22",
+     "rating": 2,
+     "food": "Beef Fried Rice",
+     "text": "Mndnew photowna mgbu chrash ayigenagnum bezalayi sgaw medkeku siketl are betam yikebdal ende endet endezi"
+    },
+    {
+     "name": "elshaday",
+     "date": "2022-12-08",
+     "rating": 1,
+     "food": "Stir Fry Fish Noodle",
+     "text": "The noodle almost doesn’t have a fish"
+    },
+    {
+     "name": "ashu",
+     "date": "2022-11-21",
+     "rating": 3,
+     "food": "Combo Salad | Full",
+     "text": "The food was good but the sauce was missing , the salad was little compared to the one we eat at the restaurant"
+    },
+    {
+     "name": "Yonathan",
+     "date": "2022-10-12",
+     "rating": 5,
+     "food": "Stir Fry Veggie Noodle",
+     "text": "I was amazing how fast the food was delivered."
+    },
+    {
+     "name": "Eman",
+     "date": "2022-10-06",
+     "rating": 2,
+     "food": "Stir Fry Chicken Noodle",
+     "text": "No broccoli and very few peice of chicken"
+    },
+    {
+     "name": "adil",
+     "date": "2022-07-03",
+     "rating": 3,
+     "food": "Stir Fry Chicken Noodle",
+     "text": "Food takes way too long to get prepared. Taste was okay."
+    }
+   ]
+  },
+  {
+   "beuId": 276,
+   "name": "Debonairs Pizza|Summit",
+   "address": "Summit Branch",
+   "lat": 9.010175,
+   "lng": 38.850523,
+   "ratingAvg": 4.13,
+   "ratingCount": 63,
+   "histogram": [
+    36,
+    14,
+    4,
+    3,
+    6
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "tigsthaile",
+     "date": "2022-12-20",
+     "rating": 1,
+     "food": "BBQ Chicken |Large",
+     "text": "እኔ ሁሌ ተጠቃሚ ነኝ ግን የዛሬ ፒዛቹ ምንም አለበላነውም  ውሃ ያለው ምንም ደስ ማይል ነው"
+    },
+    {
+     "name": "Mulugeta",
+     "date": "2022-10-09",
+     "rating": 2,
+     "food": "Chicken Strips",
+     "text": "Overpriced for this quantity."
+    },
+    {
+     "name": "Yishak Woldegiorgis",
+     "date": "2022-10-07",
+     "rating": 5,
+     "food": "Some Thing Meaty |Large",
+     "text": "Best pizza place in town"
+    },
+    {
+     "name": "tewodros tesfaye",
+     "date": "2022-09-21",
+     "rating": 1,
+     "food": "Tuna |Small",
+     "text": "I really love and like to order food from beu delivery but the drivers all the time say they don't have a change blah blah it's really bad service"
+    },
+    {
+     "name": "Negash Abreham",
+     "date": "2022-09-09",
+     "rating": 5,
+     "food": "Nutella Roll",
+     "text": "Delicious house"
+    },
+    {
+     "name": "Natnael",
+     "date": "2022-08-09",
+     "rating": 2,
+     "food": "BBQ Chicken| Meduim",
+     "text": "It's toooo much small በጣም ቲኚሽ ናት"
+    },
+    {
+     "name": "Micki",
+     "date": "2022-06-21",
+     "rating": 4,
+     "food": "Triple Decker|Small",
+     "text": "ጥሩ ጣፋጭ ፒዛ ይሰራሉ ዋጋ የተጋነነ ነው"
+    },
+    {
+     "name": "Hafiz",
+     "date": "2022-06-15",
+     "rating": 5,
+     "food": "Triple Decker|Large",
+     "text": "The food is great. But price is 825. Why are you charging 850?"
+    }
+   ]
+  },
+  {
+   "beuId": 71,
+   "name": "Little China| Bole",
+   "address": "Behind Yougo Church,Moenco St",
+   "lat": 8.99486,
+   "lng": 38.79283,
+   "ratingAvg": 3.94,
+   "ratingCount": 66,
+   "histogram": [
+    37,
+    8,
+    9,
+    4,
+    8
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Sofonyas",
+     "date": "2022-11-14",
+     "rating": 1,
+     "food": "Beef Noodle",
+     "text": "The worst noodle I've ever had"
+    },
+    {
+     "name": "Emnet",
+     "date": "2022-10-14",
+     "rating": 2,
+     "food": "Vegetable Fried Rice",
+     "text": "It's oily with no flavor and looks like nothing like the pic."
+    },
+    {
+     "name": "Waleed",
+     "date": "2022-10-14",
+     "rating": 3,
+     "food": "Mongolian beef with Steamed Rice",
+     "text": "I like the Mongolian beef but I hope meat is softer and the sauce to be less sweet. Keep it up 💐💐"
+    },
+    {
+     "name": "Mahlet",
+     "date": "2022-09-14",
+     "rating": 1,
+     "food": "Broccoli Sauce with steamed Rice",
+     "text": "I didn’t get it!"
+    },
+    {
+     "name": "Mahlet",
+     "date": "2022-08-29",
+     "rating": 1,
+     "food": "Broccoli Sauce with steamed Rice",
+     "text": "I didn’t get my food delivered and the guy picking up my order just changed the status to food received and blocked my number, terrible service wouldn’t even have the respect to call and tell me"
+    },
+    {
+     "name": "Kidanekal",
+     "date": "2022-08-28",
+     "rating": 5,
+     "food": "Beef Sizzling With Fried Rice",
+     "text": "The driver was superb"
+    },
+    {
+     "name": "bethany",
+     "date": "2022-08-19",
+     "rating": 1,
+     "food": "Vegetable Noodle",
+     "text": "Very late and bad"
+    },
+    {
+     "name": "Nebil Elias",
+     "date": "2022-08-16",
+     "rating": 1,
+     "food": "Fish Noodle",
+     "text": "ከሌላው ጊዜ በተለየ ያረረ እና በብዛቱ ያነሰ ምግብ ነው የተላከው አሳው ራሱ ሁለት ፍሬ ብቻ ነው ለዚህ ምግብ 300 ብር ማውጣት በጣም ይከብዳል!!!"
+    }
+   ]
+  },
+  {
+   "beuId": 345,
+   "name": "Arif Chicken",
+   "address": "From Bisrate Gebriel to Jemo one road. 100m away from All mart supermarket.",
+   "lat": 8.984696,
+   "lng": 38.719873,
+   "ratingAvg": 3.7,
+   "ratingCount": 70,
+   "histogram": [
+    30,
+    14,
+    11,
+    5,
+    10
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Yohana",
+     "date": "2022-11-02",
+     "rating": 1,
+     "food": "Arif Special Shawarma",
+     "text": "I like the chicken but the raping bread and the fried was awful not fresh."
+    },
+    {
+     "name": "Ruth",
+     "date": "2022-10-14",
+     "rating": 3,
+     "food": "Chicken Leg With Rice",
+     "text": "The portion was a bit too small but everything else is great"
+    },
+    {
+     "name": "Barsi",
+     "date": "2022-10-13",
+     "rating": 5,
+     "food": "Arif Special Shawarma",
+     "text": "Very little mayonnaise"
+    },
+    {
+     "name": "soliana",
+     "date": "2022-09-06",
+     "rating": 5,
+     "food": "Chicken Leg With Rice",
+     "text": "Exactly how i saw it and chikin a little spicy but yea the rice was a winner for me yaaaaas"
+    },
+    {
+     "name": "soliana",
+     "date": "2022-09-06",
+     "rating": 5,
+     "food": "Arif Special Shawarma",
+     "text": "It was great needed more fries bit over all it was great food"
+    },
+    {
+     "name": "Mesele",
+     "date": "2022-08-30",
+     "rating": 4,
+     "food": "Chicken Kebab With Rice",
+     "text": "እጅግ በጣም ጣፋጭ ነው!!!"
+    },
+    {
+     "name": "Amin",
+     "date": "2022-08-03",
+     "rating": 2,
+     "food": "Arif Special Shawarma",
+     "text": "Excessively dry, stingy on the mayo even tho i specified them to put more instead of ketchup and the chicken slices werent so good, tasted a bit foul, over all wasn't that good"
+    }
+   ]
+  },
+  {
+   "beuId": 196,
+   "name": "YEM BURGER AND PIZZA",
+   "address": "Wesen buna international bank yalbet fok 2nd floor",
+   "lat": 9.0330325,
+   "lng": 38.843938,
+   "ratingAvg": 3.53,
+   "ratingCount": 73,
+   "histogram": [
+    35,
+    9,
+    6,
+    6,
+    17
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Abdulfatah",
+     "date": "2022-12-18",
+     "rating": 1,
+     "food": "Full Club Sandwich",
+     "text": "በጣ ባለጌናቹ እንዴት የአደረ ችብስ ለሰው ትልካላቹ"
+    },
+    {
+     "name": "አባይነህ ሙሉዬ",
+     "date": "2022-11-08",
+     "rating": 1,
+     "food": "Margerita Pizza",
+     "text": "ቂጣ ነው።  ቢስተካከል ጥሩ ነው"
+    },
+    {
+     "name": "mahlet",
+     "date": "2022-11-05",
+     "rating": 1,
+     "food": "YEM Double Special Burger",
+     "text": "The worst food ever don't try it"
+    },
+    {
+     "name": "Sam",
+     "date": "2022-11-05",
+     "rating": 5,
+     "food": "Full Club Sandwich",
+     "text": "Amazing work. Keep it up"
+    },
+    {
+     "name": "Bk G",
+     "date": "2022-11-04",
+     "rating": 1,
+     "food": "Full Club Sandwich",
+     "text": "The food was shit...i got sick...wouldn't  recommend  for anyone"
+    },
+    {
+     "name": "Eyasu",
+     "date": "2022-10-24",
+     "rating": 1,
+     "food": "YEM Double Special Burger",
+     "text": "Its was so so bad 🤢🤮"
+    },
+    {
+     "name": "Simon Asfaw Kebede",
+     "date": "2022-10-23",
+     "rating": 2,
+     "food": "Yem Special Pizza",
+     "text": "Need more sauce"
+    },
+    {
+     "name": "Simon Asfaw Kebede",
+     "date": "2022-10-23",
+     "rating": 4,
+     "food": "Margerita Pizza",
+     "text": "Use two kinds of cheese"
+    }
+   ]
+  },
+  {
+   "beuId": 61,
+   "name": "23 Burger And Shake",
+   "address": "22 Around shala",
+   "lat": 9.005266749914625,
+   "lng": 38.78876332508117,
+   "ratingAvg": 3.31,
+   "ratingCount": 77,
+   "histogram": [
+    31,
+    12,
+    4,
+    10,
+    20
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "esri",
+     "date": "2022-12-09",
+     "rating": 5,
+     "food": "Veggie Sandwich",
+     "text": "price 135 birr ነበር የመጣው ልክ deliver sehonlegh 145 honwal why?"
+    },
+    {
+     "name": "yabalebye",
+     "date": "2022-11-19",
+     "rating": 1,
+     "food": "Special Shake",
+     "text": "Its fucking shitt like the image on this site and the delivery didn't be the same . The shake is not good at all"
+    },
+    {
+     "name": "tsegaw",
+     "date": "2022-11-17",
+     "rating": 1,
+     "food": "Special Burger",
+     "text": "ስጋው ደርቋል ሽብሱ አልተበላም ጣዕም የለውም::"
+    },
+    {
+     "name": "Beza",
+     "date": "2022-11-14",
+     "rating": 1,
+     "food": "Special Burger",
+     "text": "Not well and Not good ,it will Ruin your reputation im not blaming the Restaurat Food im blaming Beu obviously cuz you are the cover of all the restaurant ...so protect it well"
+    },
+    {
+     "name": "Habtamu",
+     "date": "2022-11-01",
+     "rating": 4,
+     "food": "Double Beef Burger",
+     "text": "It taste nice make it huge"
+    },
+    {
+     "name": "Aman",
+     "date": "2022-10-24",
+     "rating": 1,
+     "food": "Club Sandwich",
+     "text": "Too much salt, little portions, aruwal demo"
+    },
+    {
+     "name": "Lucky",
+     "date": "2022-10-21",
+     "rating": 1,
+     "food": "Double Chicken Burger",
+     "text": "Order says delivered but not delivered to me"
+    },
+    {
+     "name": "Abaynesh Alebel",
+     "date": "2022-09-04",
+     "rating": 2,
+     "food": "Special Burger",
+     "text": "betam arual ena demo tnsh new metenun telek argut"
+    }
+   ]
+  },
+  {
+   "beuId": 507,
+   "name": "Maya Juice / Bole",
+   "address": "Bole ,Near to Sheger Building",
+   "lat": 8.998548377081661,
+   "lng": 38.78644055429838,
+   "ratingAvg": 4.34,
+   "ratingCount": 53,
+   "histogram": [
+    39,
+    2,
+    6,
+    3,
+    3
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Grum",
+     "date": "2022-12-22",
+     "rating": 5,
+     "food": "Maya Special Shake",
+     "text": "On time delivery thank u"
+    },
+    {
+     "name": "Samrawit Getachew",
+     "date": "2022-12-09",
+     "rating": 1,
+     "food": "Fruit punch",
+     "text": "The price changed after the operator told.me.it got higher"
+    },
+    {
+     "name": "lydia",
+     "date": "2022-12-05",
+     "rating": 1,
+     "food": "Mango Juice",
+     "text": "It's mixed with beso or some other ingridient....it's no mango juice....dissapointed"
+    },
+    {
+     "name": "Edom",
+     "date": "2022-09-03",
+     "rating": 2,
+     "food": "Beef Burger",
+     "text": "No chips or sliced potatoes so that we are not satisfied"
+    },
+    {
+     "name": "Abu_tad",
+     "date": "2022-08-29",
+     "rating": 5,
+     "food": "Maya Special Shake",
+     "text": "There is lemon but it is very good"
+    }
+   ]
+  },
+  {
+   "beuId": 70,
+   "name": "Little China|Century mall",
+   "address": "Century Mall",
+   "lat": 9.01935,
+   "lng": 38.81408,
+   "ratingAvg": 4.15,
+   "ratingCount": 55,
+   "histogram": [
+    35,
+    8,
+    4,
+    1,
+    7
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "tsednaya adnew",
+     "date": "2022-12-26",
+     "rating": 1,
+     "food": "Broccoli Sauce with steamed Rice",
+     "text": "It made me really sick I was vomiting all day I’m sorry"
+    },
+    {
+     "name": "Mahlet",
+     "date": "2022-11-30",
+     "rating": 3,
+     "food": "Broccoli Sauce with steamed Rice",
+     "text": "Delivery man was great, but food was prepared not as I specified"
+    },
+    {
+     "name": "492277",
+     "date": "2022-10-30",
+     "rating": 4,
+     "food": "Beef Sizzling With Fried Rice",
+     "text": "The beef was a bit chewy but good taste all in all"
+    },
+    {
+     "name": "liya",
+     "date": "2022-10-18",
+     "rating": 1,
+     "food": "Beef Sizzling With Fried Rice",
+     "text": "I didn’t receive the food"
+    },
+    {
+     "name": "Abeneazer",
+     "date": "2022-09-15",
+     "rating": 1,
+     "food": "Beef Frid Rice",
+     "text": "The food is delivered without a fork, very late. am very much disappointed. I will never order with this app again"
+    },
+    {
+     "name": "Tersit",
+     "date": "2022-09-14",
+     "rating": 1,
+     "food": "Vegetable Noodles",
+     "text": "It wasn't delivered!!!"
+    },
+    {
+     "name": "Gelila",
+     "date": "2022-07-22",
+     "rating": 4,
+     "food": "Vegetable Noodles",
+     "text": "Didn't have as much sauce, but still good."
+    },
+    {
+     "name": "ገሊላ",
+     "date": "2022-07-08",
+     "rating": 2,
+     "food": "Vegetable Noodles",
+     "text": "ጨዉ የለውም በዛላይ መብያ like ሹካ or ማንኪያ የለውም ባጠቃላይ ብዙም አስደሳች አደለም"
+    }
+   ]
+  },
+  {
+   "beuId": 809,
+   "name": "Mikey's Burger and Pizza(LidetaBranch)",
+   "address": "Lideta next to ethio pharmacy",
+   "lat": 9.016307,
+   "lng": 38.738431,
+   "ratingAvg": 3.85,
+   "ratingCount": 59,
+   "histogram": [
+    34,
+    4,
+    9,
+    2,
+    10
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "kiya",
+     "date": "2022-12-31",
+     "rating": 1,
+     "food": "Large AL'Tono Pizza",
+     "text": "Chew banatu?  Wasn’t that good"
+    },
+    {
+     "name": "mira",
+     "date": "2022-12-11",
+     "rating": 5,
+     "food": "Large AL'Tono Pizza",
+     "text": "Thank you for the honesty"
+    },
+    {
+     "name": "Ela",
+     "date": "2022-10-09",
+     "rating": 1,
+     "food": "Large Special Pizza",
+     "text": "No cheese at all"
+    },
+    {
+     "name": "Tadiyos",
+     "date": "2022-09-12",
+     "rating": 1,
+     "food": "Large Hawaiian Pizza",
+     "text": "I didn't even eat the pizza.. I was on hurry to my program waiting for my pizza... But the delivery guy  messed up with it..he smashed all pizza...It is disrespectful... Unexpected ????"
+    },
+    {
+     "name": "Esmail",
+     "date": "2022-09-10",
+     "rating": 5,
+     "food": "Special Burger",
+     "text": "I didn’t get my luck number"
+    },
+    {
+     "name": "Abel",
+     "date": "2022-09-10",
+     "rating": 5,
+     "food": "Special Burger",
+     "text": "Very tasty, nice chips, very enough for one human male if you order a coke with it"
+    },
+    {
+     "name": "NATHNAEL ALEBACHEW",
+     "date": "2022-08-28",
+     "rating": 5,
+     "food": "Large Special Pizza",
+     "text": "Good seasoning., Great taste , great size !!!"
+    },
+    {
+     "name": "NATHNAEL ALEBACHEW",
+     "date": "2022-08-28",
+     "rating": 5,
+     "food": "Double Burger",
+     "text": "All things are perfect . Well cooked . Well packed ???????? u just got a new customer ????????"
+    }
+   ]
+  },
+  {
+   "beuId": 891,
+   "name": "Ethio Pizza",
+   "address": "CMC| Around American Hospital",
+   "lat": 9.03078,
+   "lng": 38.85171,
+   "ratingAvg": 3.37,
+   "ratingCount": 63,
+   "histogram": [
+    20,
+    17,
+    7,
+    4,
+    15
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Dr.Nahom",
+     "date": "2022-11-21",
+     "rating": 3,
+     "food": "Cheesy pepperoni Pizza",
+     "text": "The cheese was sticky to the foil and i can't remove it.it was better if they just put z pizza inside z box."
+    },
+    {
+     "name": "eyob",
+     "date": "2022-11-13",
+     "rating": 1,
+     "food": "Cheesy Special pizza",
+     "text": "How can a cheese be this disgusting the sauce tastes like shit the cheese is chewy don get me started by the ham"
+    },
+    {
+     "name": "Dusay",
+     "date": "2022-11-07",
+     "rating": 1,
+     "food": "Extra Cheesy Pizza",
+     "text": "Dough is too thick and pizza sauce tastes bad, not worth it even with the discount"
+    },
+    {
+     "name": "tatu",
+     "date": "2022-11-06",
+     "rating": 1,
+     "food": "Cheesy Special pizza",
+     "text": "The worst pizza ever!! I never had a weird test like zis like never betam nw myastelaw chrash aytaft"
+    },
+    {
+     "name": "Helawe",
+     "date": "2022-10-30",
+     "rating": 4,
+     "food": "Cheesy Special pizza",
+     "text": "I liked the food"
+    },
+    {
+     "name": "MR Leonardo Pizza enthusiast",
+     "date": "2022-10-26",
+     "rating": 5,
+     "food": "Extra Cheesy Pizza",
+     "text": "ከተማው ላይ እንዲህ አይነት የሚጥም እጅ የሚያስቆረጥም በቺዝ የተጥለቀለቀ ፒዛ በልቼ አላውቅም ውጭ ሀገር እያለሁ Dominos pizza እና Pizza Hut የበላሁት ፒዛ እራሱ እንዲ አልጣፈጠኝ Ethio.pizza ያጣፍጥላቹ በርቱ እጃቹ እንዳይቀየር ተባረኩ ከከተማው አንደኛ ናቹ ደንበኛ ሆነናል"
+    },
+    {
+     "name": "Henok",
+     "date": "2022-10-25",
+     "rating": 5,
+     "food": "Extra Cheesy Pizza",
+     "text": "All things in the pizza was perfect"
+    },
+    {
+     "name": "Bereket teklit",
+     "date": "2022-10-20",
+     "rating": 4,
+     "food": "Extra Cheesy Pizza",
+     "text": "A bit flavor less"
+    }
+   ]
+  },
+  {
+   "beuId": 16,
+   "name": "Take Away Burger",
+   "address": "Megenagna, Metebaber 3rd Floor",
+   "lat": 9.0205,
+   "lng": 38.8024,
+   "ratingAvg": 3.16,
+   "ratingCount": 67,
+   "histogram": [
+    23,
+    5,
+    15,
+    8,
+    16
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Kidist",
+     "date": "2022-12-01",
+     "rating": 2,
+     "food": "Special Burger",
+     "text": "It is dry and not much tasty"
+    },
+    {
+     "name": "Kaleab",
+     "date": "2022-11-07",
+     "rating": 1,
+     "food": "Beef And Cheese Wrap",
+     "text": "For real??! የሻገተ ዳቦ ?? 🤬This is the worst food experience I ever had !!"
+    },
+    {
+     "name": "SEK",
+     "date": "2022-11-04",
+     "rating": 3,
+     "food": "Double Burger",
+     "text": "The customers were not satisfied. Th meat was roughly grinded and too raw to eat. 'Tastes almost like slightly cooked Dulet'. The chips was horrible. Shouldn't hv taken more than 40 minute for its proximity. Thanks"
+    },
+    {
+     "name": "206144",
+     "date": "2022-10-26",
+     "rating": 4,
+     "food": "Club Sandwich",
+     "text": "The food has  abundance,all ingredients were in good proportion and it was prepared fast. The price is fair. But food was cold and the chips particularly was not  fresh."
+    },
+    {
+     "name": "Rebecca",
+     "date": "2022-10-23",
+     "rating": 1,
+     "food": "Beef And Cheese Wrap",
+     "text": "so wired n its freez i will never order im so disapointed its nit fair"
+    },
+    {
+     "name": "Hermela",
+     "date": "2022-09-29",
+     "rating": 1,
+     "food": "Double Burger",
+     "text": "Mann endayaz yegema man miasyut Ella misetut lela"
+    },
+    {
+     "name": "Roba",
+     "date": "2022-09-28",
+     "rating": 1,
+     "food": "Beef And Cheese Wrap",
+     "text": "The Potato is raw, not cooked well."
+    },
+    {
+     "name": "semawit sahlu",
+     "date": "2022-08-31",
+     "rating": 1,
+     "food": "French Fries",
+     "text": "Photo lay yalew Ena yemetaw and aynet adelem + betam new emiyastelaw"
+    }
+   ]
+  },
+  {
+   "beuId": 907,
+   "name": "Maya Juice |Figa",
+   "address": "Figa",
+   "lat": 9.011274,
+   "lng": 38.836526,
+   "ratingAvg": 4.04,
+   "ratingCount": 48,
+   "histogram": [
+    26,
+    10,
+    5,
+    2,
+    5
+   ],
+   "seedMatch": false,
+   "comments": []
+  },
+  {
+   "beuId": 109,
+   "name": "Debonairs Pizza|Atlas",
+   "address": "Around Atlas Near to kkfc",
+   "lat": 9.00185,
+   "lng": 38.77965,
+   "ratingAvg": 3.65,
+   "ratingCount": 51,
+   "histogram": [
+    23,
+    10,
+    6,
+    1,
+    11
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Teshome",
+     "date": "2022-12-11",
+     "rating": 5,
+     "food": "Spicy Chicken ( Small)",
+     "text": "I really appreciate you                                    Thank for your service"
+    },
+    {
+     "name": "Hanan Seid",
+     "date": "2022-12-01",
+     "rating": 3,
+     "food": "Nutella Rolls",
+     "text": "It is very tasty but the amount of cinnamon on the rolls is too much and it causes gastric would if the topping of the rolls would be only Nutella except for that it's very delicious"
+    },
+    {
+     "name": "Thor",
+     "date": "2022-11-27",
+     "rating": 3,
+     "food": "Margarita|Medium",
+     "text": "Small serving for a medium"
+    },
+    {
+     "name": "Melat Girma",
+     "date": "2022-11-20",
+     "rating": 1,
+     "food": "Chicken Strips",
+     "text": "አይጣፍጥም  ዋጋው አይመጥነዉም"
+    },
+    {
+     "name": "Yene",
+     "date": "2022-10-03",
+     "rating": 1,
+     "food": "Spicy Chicken ( Small)",
+     "text": "Migibu stil aldersenginm"
+    },
+    {
+     "name": "Bitania",
+     "date": "2022-10-01",
+     "rating": 1,
+     "food": "BBQ Chicken |Large",
+     "text": "I ordered from Debonaires and got a pizza from Modern's Addis. The biker insisted it was a mistake on my end, but the order specifically says Debonairs. I'm very disappointed as there is a significant price difference on the pizzas as well."
+    },
+    {
+     "name": "Selam",
+     "date": "2022-09-21",
+     "rating": 1,
+     "food": "Veggie Pasta Salad",
+     "text": "Not deliver yet"
+    },
+    {
+     "name": "Kidus",
+     "date": "2022-08-30",
+     "rating": 1,
+     "food": "Cram Decker|Large",
+     "text": "Took way too long"
+    }
+   ]
+  },
+  {
+   "beuId": 229,
+   "name": "Joy Burger | Saris",
+   "address": "Saris Adey Abeba Square",
+   "lat": 8.957744,
+   "lng": 38.763938,
+   "ratingAvg": 3.77,
+   "ratingCount": 48,
+   "histogram": [
+    25,
+    4,
+    10,
+    1,
+    8
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "senait",
+     "date": "2022-10-30",
+     "rating": 1,
+     "food": "Joy Special Pizza",
+     "text": "በጣም ቀዝቃዛ ነው ኣስተካክሉ"
+    },
+    {
+     "name": "Feven",
+     "date": "2022-10-04",
+     "rating": 1,
+     "food": "Special Club Sandwich",
+     "text": "Not good at all"
+    },
+    {
+     "name": "Kirubel",
+     "date": "2022-09-17",
+     "rating": 3,
+     "food": "Joy Special Burger",
+     "text": "I dont know why the size is very small  but the taste is good"
+    },
+    {
+     "name": "Alex",
+     "date": "2022-09-06",
+     "rating": 1,
+     "food": "Joy Double Burger",
+     "text": "I like delivery services but the food is not good enough"
+    },
+    {
+     "name": "Abdi mohammedamin",
+     "date": "2022-09-01",
+     "rating": 1,
+     "food": "Joy Double Burger",
+     "text": "The food was not big like I see in the picture but it is delicious"
+    }
+   ]
+  },
+  {
+   "beuId": 843,
+   "name": "Lite Bite Bistro",
+   "address": "Bole Infront Of Skylight Hotel Near To Hiwot Shiro",
+   "lat": 8.989057,
+   "lng": 38.792615,
+   "ratingAvg": 4.28,
+   "ratingCount": 40,
+   "histogram": [
+    22,
+    11,
+    4,
+    2,
+    1
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Adam",
+     "date": "2022-12-30",
+     "rating": 3,
+     "food": "BBQ Chicken Sandwich Subs",
+     "text": "Thee bread, cheese etc is OK but the sauce is too sweet."
+    },
+    {
+     "name": "Betty",
+     "date": "2022-12-27",
+     "rating": 1,
+     "food": "Power Oatmeal",
+     "text": "What's delivered isn't what's on the description. Disappointing!"
+    },
+    {
+     "name": "ኤሊያስ",
+     "date": "2022-12-10",
+     "rating": 3,
+     "food": "Special burger",
+     "text": "ዳቦው ጥሩ አይደለም በዛ ላይ ቺፕሱ 9 ፍሬ አስተካክሉት"
+    },
+    {
+     "name": "Adam",
+     "date": "2022-12-08",
+     "rating": 2,
+     "food": "Chicken Ceasar salad",
+     "text": "Disappointing. The salad was bland and is so different from the picture. There was no cheese as advertised"
+    },
+    {
+     "name": "Adam",
+     "date": "2022-12-08",
+     "rating": 2,
+     "food": "Broccoli Cheddar Soup",
+     "text": "Disappointing. Had to throw half of it away as it was bland without any flavor. Furthermore the soup was delivered in a juice cup which made it hard to ear."
+    },
+    {
+     "name": "Adam",
+     "date": "2022-12-05",
+     "rating": 4,
+     "food": "Beef and chicken wrap",
+     "text": "Delicious food. As advertised"
+    }
+   ]
+  },
+  {
+   "beuId": 779,
+   "name": "Hani Juice and Pizza",
+   "address": "Tulu dimtu, project 11 block57",
+   "lat": 8.873964722757751,
+   "lng": 38.82010118836673,
+   "ratingAvg": 4.37,
+   "ratingCount": 38,
+   "histogram": [
+    29,
+    1,
+    4,
+    1,
+    3
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Hana Tesfaye",
+     "date": "2022-09-23",
+     "rating": 5,
+     "food": "Special juice",
+     "text": "በጣም ጣፋጭ ነበር በጣም አመሰግናለው"
+    },
+    {
+     "name": "Nahom",
+     "date": "2022-08-19",
+     "rating": 3,
+     "food": "Special Pizza",
+     "text": "Its overall good but the toppings are not spread evenly, it's a little bit dry and very small amount of cheese."
+    }
+   ]
+  },
+  {
+   "beuId": 77,
+   "name": "BT Burger And Smoothie",
+   "address": "Ayat Round About",
+   "lat": 9.021856,
+   "lng": 38.87737,
+   "ratingAvg": 2.96,
+   "ratingCount": 55,
+   "histogram": [
+    16,
+    8,
+    7,
+    6,
+    18
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Kirubel",
+     "date": "2022-12-13",
+     "rating": 1,
+     "food": "Double Burger",
+     "text": "Where the fries at?"
+    },
+    {
+     "name": "Yodit",
+     "date": "2022-12-08",
+     "rating": 1,
+     "food": "Double Burger",
+     "text": "It doesn't have any cheese and egg as mentioned here. I feel bad ordering from here it tests awful too!"
+    },
+    {
+     "name": "Getnet Taye",
+     "date": "2022-10-25",
+     "rating": 1,
+     "food": "Tuna Sandwich",
+     "text": "The sanduch that sent from is not look like as the image"
+    },
+    {
+     "name": "Mieraf Amare",
+     "date": "2022-10-03",
+     "rating": 1,
+     "food": "Special Burger",
+     "text": "Not recommended!"
+    },
+    {
+     "name": "Yos",
+     "date": "2022-10-03",
+     "rating": 1,
+     "food": "Cheese Burger",
+     "text": "Where is the fries? 🙄"
+    },
+    {
+     "name": "Rekik",
+     "date": "2022-08-15",
+     "rating": 4,
+     "food": "Tuna Sandwich",
+     "text": "Other than the portion and there being no ketchup the food is great."
+    },
+    {
+     "name": "Shimelis",
+     "date": "2022-07-12",
+     "rating": 3,
+     "food": "Double Burger",
+     "text": "The Burger was really Nice. But your delivery time is very Long."
+    },
+    {
+     "name": "Yodit",
+     "date": "2022-06-26",
+     "rating": 3,
+     "food": "Beef Burger",
+     "text": "They are very stingy with their Ketchup. They need to put more Ketchup for the burger and the fries."
+    }
+   ]
+  },
+  {
+   "beuId": 936,
+   "name": "Unique Juice and Fast Food",
+   "address": "Behind Bole Medhanialem Church",
+   "lat": 8.99596,
+   "lng": 38.790067,
+   "ratingAvg": 4.53,
+   "ratingCount": 32,
+   "histogram": [
+    28,
+    0,
+    0,
+    1,
+    3
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Nahom Belay",
+     "date": "2022-12-26",
+     "rating": 1,
+     "food": "እርጥብ",
+     "text": "Need improvements"
+    },
+    {
+     "name": "Yonas Alem",
+     "date": "2022-12-07",
+     "rating": 2,
+     "food": "ሰፔሻል እርጥብ",
+     "text": "Lord have mercy it's awful 😖"
+    },
+    {
+     "name": "Lula",
+     "date": "2022-11-11",
+     "rating": 1,
+     "food": "Special juice",
+     "text": "Picture And the actual juice definitely not the same.  😑"
+    }
+   ]
+  },
+  {
+   "beuId": 868,
+   "name": "Taem Bakery and Pastries | Ayat",
+   "address": "Around Ayat square Next to Friends mall",
+   "lat": 9.020886,
+   "lng": 38.872604,
+   "ratingAvg": 3.81,
+   "ratingCount": 36,
+   "histogram": [
+    17,
+    4,
+    8,
+    5,
+    2
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "kaleb",
+     "date": "2022-11-30",
+     "rating": 4,
+     "food": "Special Shawarma",
+     "text": "It’s sometimes excellent and sometimes not so great,(dry)"
+    },
+    {
+     "name": "kaleb",
+     "date": "2022-11-26",
+     "rating": 4,
+     "food": "Special Shawarma",
+     "text": "A little dry but overall nice 👍"
+    },
+    {
+     "name": "Kidus",
+     "date": "2022-11-13",
+     "rating": 4,
+     "food": "Special Pizza",
+     "text": "The food was good but it was not fresh and The delivery was not on time as it said delivered"
+    },
+    {
+     "name": "Ace",
+     "date": "2022-10-29",
+     "rating": 2,
+     "food": "Chicken Burger",
+     "text": "Chicken too dry"
+    },
+    {
+     "name": "Amanuel",
+     "date": "2022-10-25",
+     "rating": 3,
+     "food": "Special Shawarma",
+     "text": "Needs catchup for the fires"
+    }
+   ]
+  },
+  {
+   "beuId": 232,
+   "name": "Geni Burger and Pizza",
+   "address": "Torhayoloch, Around Agusta",
+   "lat": 9.011775,
+   "lng": 38.722324,
+   "ratingAvg": 3.67,
+   "ratingCount": 36,
+   "histogram": [
+    14,
+    7,
+    8,
+    3,
+    4
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Meku",
+     "date": "2022-09-22",
+     "rating": 5,
+     "food": "Geni Special Burger",
+     "text": "I am proud of u! The time &, quality makes both of you special (Beu &Geni).you are my choice!"
+    },
+    {
+     "name": "Suzy",
+     "date": "2022-09-22",
+     "rating": 5,
+     "food": "Geni Special Burger",
+     "text": "Good job keep it up"
+    },
+    {
+     "name": "Hana Lake",
+     "date": "2022-08-18",
+     "rating": 1,
+     "food": "Vegetable Sandwich",
+     "text": "Hisab online yalachut lela neger gn mgbu simeta chmari taskeflalachu mn aynet sra new"
+    },
+    {
+     "name": "Bekam",
+     "date": "2022-07-23",
+     "rating": 1,
+     "food": "Geni Special Pizza",
+     "text": "ዳጣው ጫት እንደ ተጨመረበት አውቄያለሁ"
+    },
+    {
+     "name": "Bekam",
+     "date": "2022-07-15",
+     "rating": 3,
+     "food": "Geni Special Burger",
+     "text": "ምግቡ አሪፍ ነው ግን በጣም ቆይቷል!!!"
+    },
+    {
+     "name": "metsnanat amberber",
+     "date": "2022-06-08",
+     "rating": 1,
+     "food": "Beef Club Sandwich",
+     "text": "ያዘዝኩት ሳይደርስ ሰከሳቹኝ"
+    }
+   ]
+  },
+  {
+   "beuId": 11,
+   "name": "Bel Paninooo1",
+   "address": "Infront of Adey Ababa Stadium , Next to Anat building",
+   "lat": 9.001605,
+   "lng": 38.786749,
+   "ratingAvg": 3.22,
+   "ratingCount": 41,
+   "histogram": [
+    14,
+    5,
+    8,
+    4,
+    10
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "kidist",
+     "date": "2022-12-22",
+     "rating": 1,
+     "food": "Vegetable Sandwich",
+     "text": "The food that is delivered is not vegetable sandwich it is just a bread with some mush potato ."
+    },
+    {
+     "name": "Adam",
+     "date": "2022-11-29",
+     "rating": 3,
+     "food": "Beef Sandwich",
+     "text": "This is the third time that I placed the order from this place, and twice the bread was stale. Why use stale bread repeatedly? If I was in at the restaurant  physically I would return the food."
+    },
+    {
+     "name": "Adam",
+     "date": "2022-11-11",
+     "rating": 5,
+     "food": "Tuna Sandwich",
+     "text": "Delicious sandwiches, prompt delivery. Happy all round"
+    },
+    {
+     "name": "Nathan",
+     "date": "2022-11-04",
+     "rating": 1,
+     "food": "Special Sandwich",
+     "text": "Very small portion than shown on the picture. Unclean an unprofessional packaging. Very disappointed."
+    },
+    {
+     "name": "Simon Asfaw Kebede",
+     "date": "2022-10-25",
+     "rating": 4,
+     "food": "Egg sandwich",
+     "text": "Small but tasty"
+    },
+    {
+     "name": "Hawaz",
+     "date": "2022-10-07",
+     "rating": 5,
+     "food": "Vegetable Beef sandwich",
+     "text": "Yummy, excellent packaging, just more work on mato n catchup"
+    },
+    {
+     "name": "Ruth Amare",
+     "date": "2022-10-07",
+     "rating": 1,
+     "food": "Beef, Cheese & Egg",
+     "text": "The packaging was shity and the food size is too small"
+    },
+    {
+     "name": "Abel",
+     "date": "2022-10-03",
+     "rating": 1,
+     "food": "Vegetable Beef sandwich",
+     "text": "The food is SHIT"
+    }
+   ]
+  },
+  {
+   "beuId": 775,
+   "name": "Burger Base|Kazanchise",
+   "address": "Kazanchise Around Inter Continental",
+   "lat": 9.014233,
+   "lng": 38.768706,
+   "ratingAvg": 3.23,
+   "ratingCount": 39,
+   "histogram": [
+    11,
+    7,
+    9,
+    4,
+    8
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "ሚካኤል",
+     "date": "2022-12-19",
+     "rating": 1,
+     "food": "Plain Burger",
+     "text": "this is wroset burger i have never seen."
+    },
+    {
+     "name": "Yoni",
+     "date": "2022-11-29",
+     "rating": 3,
+     "food": "Eiffel Tower",
+     "text": "It was dry! too little sauce."
+    },
+    {
+     "name": "Sofonias",
+     "date": "2022-11-12",
+     "rating": 3,
+     "food": "Base Burger",
+     "text": "Its smaller than it looks in the picture,  and very small amount of chips too, but it tastes good"
+    },
+    {
+     "name": "Aklesia Birhanu",
+     "date": "2022-10-22",
+     "rating": 3,
+     "food": "Gourmet Cheese Burger",
+     "text": "The fries are not enough"
+    },
+    {
+     "name": "Fetiya",
+     "date": "2022-10-13",
+     "rating": 1,
+     "food": "Plain Burger",
+     "text": "Betammm new midebre pto lay yalew ila midersew ila desss aylm batekalay kezi teteshale argut"
+    },
+    {
+     "name": "semira",
+     "date": "2022-10-13",
+     "rating": 3,
+     "food": "Hot Chicks",
+     "text": "It was average.. the chicken is too dry tho.. in general it needs a kick of spicyness"
+    },
+    {
+     "name": "soli",
+     "date": "2022-09-20",
+     "rating": 1,
+     "food": "Eiffel Tower",
+     "text": "the meat was undercooked and no seasoning"
+    },
+    {
+     "name": "Jo",
+     "date": "2022-09-18",
+     "rating": 2,
+     "food": "Gourmet Cheese Burger",
+     "text": "Where is z cheese??????"
+    }
+   ]
+  },
+  {
+   "beuId": 7,
+   "name": "Lomi Health",
+   "address": "Gerji Imperial,Alfoz Plaza",
+   "lat": 9.001689795033686,
+   "lng": 38.801661742448914,
+   "ratingAvg": 3.5,
+   "ratingCount": 34,
+   "histogram": [
+    16,
+    4,
+    4,
+    1,
+    9
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Fish",
+     "date": "2022-11-03",
+     "rating": 1,
+     "food": "Tuna Sandwich",
+     "text": "It's not what I wanted"
+    },
+    {
+     "name": "Meklit Ismail",
+     "date": "2022-10-28",
+     "rating": 1,
+     "food": "ፈጢራ በእንቁላል",
+     "text": "The food was great till today. Todays food is not it🙄"
+    },
+    {
+     "name": "Nohamin",
+     "date": "2022-09-16",
+     "rating": 1,
+     "food": "ፈጢራ በእንቁላል",
+     "text": "I found a cockroach in my food"
+    },
+    {
+     "name": "dawit",
+     "date": "2022-08-31",
+     "rating": 1,
+     "food": "Grilled Steak And Cheese",
+     "text": "በጣም  ቀዝቃዛ ሆኖ ነው የመጣው ደስ አይልም"
+    }
+   ]
+  },
+  {
+   "beuId": 298,
+   "name": "Syriana Restaurant",
+   "address": "Tor Hailoch Next to Nib International Bank.",
+   "lat": 9.007283,
+   "lng": 38.718976,
+   "ratingAvg": 3.03,
+   "ratingCount": 39,
+   "histogram": [
+    15,
+    2,
+    5,
+    3,
+    14
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Liya",
+     "date": "2022-12-17",
+     "rating": 5,
+     "food": "Baklava",
+     "text": "It is sooo yummy I love it!!"
+    },
+    {
+     "name": "Abu Ephrem",
+     "date": "2022-09-13",
+     "rating": 1,
+     "food": "Normal Shawarma Sandwich",
+     "text": "Sewoch megebu saymeta delivered eyale new"
+    },
+    {
+     "name": "onkar",
+     "date": "2022-09-11",
+     "rating": 1,
+     "food": "Special Sweet 1/2 Kg",
+     "text": "Bot received the i order"
+    },
+    {
+     "name": "onkar",
+     "date": "2022-09-11",
+     "rating": 1,
+     "food": "Normal Shawarma Sandwich",
+     "text": "Did not received an order"
+    },
+    {
+     "name": "onkar",
+     "date": "2022-09-11",
+     "rating": 1,
+     "food": "Crispy Chicken with Rice",
+     "text": "Not received the order"
+    },
+    {
+     "name": "Selamawit",
+     "date": "2022-08-31",
+     "rating": 1,
+     "food": "Normal Shawarma Sandwich",
+     "text": "Very little portion"
+    },
+    {
+     "name": "Abdu",
+     "date": "2022-08-21",
+     "rating": 5,
+     "food": "Mandi Half",
+     "text": "It was fantastic and I enjoyed it ????"
+    },
+    {
+     "name": "khulud",
+     "date": "2022-08-18",
+     "rating": 1,
+     "food": "Mandi Half",
+     "text": "megbu feso nw ene ga yedrsew bezalaye 2 seat mulu telke derjet nw be cycle kemtlku mene albt be moter betlkute tasznalhu"
+    }
+   ]
+  },
+  {
+   "beuId": 647,
+   "name": "Joy Burger | Lafto",
+   "address": "Lafto , Taxi Tera Near to Lafto Bilal Mosque",
+   "lat": 8.948251,
+   "lng": 38.744385,
+   "ratingAvg": 4.27,
+   "ratingCount": 26,
+   "histogram": [
+    17,
+    5,
+    1,
+    0,
+    3
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Feven",
+     "date": "2022-12-15",
+     "rating": 1,
+     "food": "Special Club Sandwitch",
+     "text": "ለምን እንደሆነ አላዉቅም ግን አሁን ለ 3 ጊዜ ነዉ የቀዘቀዘ ምግብ ሲመጣልን በጣም ነዉ ሚደብረዉ"
+    },
+    {
+     "name": "Dan",
+     "date": "2022-10-27",
+     "rating": 5,
+     "food": "Joy Special Pizza",
+     "text": "Thank you guys! Perfect!"
+    },
+    {
+     "name": "Dagm",
+     "date": "2022-10-25",
+     "rating": 1,
+     "food": "Cheese Burger",
+     "text": "I haven't got the food"
+    },
+    {
+     "name": "Yonas",
+     "date": "2022-08-06",
+     "rating": 5,
+     "food": "Joy Special Burger",
+     "text": "Tastes amazing and fresh , I didn't expect this from this part of town . keep it up !"
+    },
+    {
+     "name": "Yonas",
+     "date": "2022-08-06",
+     "rating": 5,
+     "food": "Cheese Burger",
+     "text": "Great taste the French fries was fresh and the ketchup so authentic. I will definitely order again"
+    }
+   ]
+  },
+  {
+   "beuId": 374,
+   "name": "Classic Burger and Pizza/Saris",
+   "address": "Saris Adiss Sefr/Deldey",
+   "lat": 8.954153047989138,
+   "lng": 38.770486526901735,
+   "ratingAvg": 3.7,
+   "ratingCount": 30,
+   "histogram": [
+    13,
+    5,
+    6,
+    2,
+    4
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Eden Ezra",
+     "date": "2022-11-13",
+     "rating": 5,
+     "food": "Special Burger",
+     "text": "The chees was small"
+    },
+    {
+     "name": "Sirius",
+     "date": "2022-11-03",
+     "rating": 4,
+     "food": "Special Burger",
+     "text": "The burger was tasty, and there was plenty of mayonnaise... my only complaint was that it was a little salty... There were enough fries, but they were overcooked..."
+    },
+    {
+     "name": "Yordanos",
+     "date": "2022-10-22",
+     "rating": 3,
+     "food": "Chicken Breast Steack",
+     "text": "Megedu tiru hono gen befitinet ayideresm yih new asteyayet tenshi dgmo anesechi"
+    },
+    {
+     "name": "Kaleb",
+     "date": "2022-09-14",
+     "rating": 3,
+     "food": "Special Burger",
+     "text": "The food was good but the delivery was too late. You said to deliver in 20min but the food was delivered in 45min."
+    }
+   ]
+  },
+  {
+   "beuId": 285,
+   "name": "Dana shake",
+   "address": "Ayertena, Torhayloch taxi stop",
+   "lat": 8.9837452,
+   "lng": 38.6995,
+   "ratingAvg": 4.5,
+   "ratingCount": 22,
+   "histogram": [
+    16,
+    2,
+    3,
+    1,
+    0
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Semira",
+     "date": "2022-10-02",
+     "rating": 5,
+     "food": "Milk Shake",
+     "text": "Wow so sweet it deserves  to be ordered again"
+    },
+    {
+     "name": "Nathan Tadesse",
+     "date": "2022-08-02",
+     "rating": 4,
+     "food": "French Fries",
+     "text": "The ketchup spilled out from the aluminum foil"
+    }
+   ]
+  },
+  {
+   "beuId": 122,
+   "name": "Mikey's Burger and Pizza(Kazanchis Branch)",
+   "address": "Kazanchis on the way to intercontinental hotel",
+   "lat": 9.017022,
+   "lng": 38.769989,
+   "ratingAvg": 4.36,
+   "ratingCount": 22,
+   "histogram": [
+    16,
+    2,
+    2,
+    0,
+    2
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Papa",
+     "date": "2022-11-05",
+     "rating": 5,
+     "food": "Mikey's Special Burger",
+     "text": "The Food is number one"
+    },
+    {
+     "name": "Mussie",
+     "date": "2022-11-02",
+     "rating": 5,
+     "food": "Mikey's Special Burger",
+     "text": "Good burger like it"
+    },
+    {
+     "name": "Eden mesele",
+     "date": "2022-09-10",
+     "rating": 5,
+     "food": "Large Special Pizza",
+     "text": "Mikey’s pizza is Delicious as always thank you"
+    },
+    {
+     "name": "Ali",
+     "date": "2022-08-23",
+     "rating": 1,
+     "food": "Large Special Pizza",
+     "text": "The food was delivered after more then 2 hours. The pizza became ice cold and tasteless. The delivery guy brought the pizza vertically, so all the toppings were disoriented. Most pathetic food and delivery experience ever."
+    }
+   ]
+  },
+  {
+   "beuId": 250,
+   "name": "A One Burger",
+   "address": "22 Around Tomoca Coffee",
+   "lat": 9.006565,
+   "lng": 38.784099,
+   "ratingAvg": 3.29,
+   "ratingCount": 28,
+   "histogram": [
+    10,
+    5,
+    4,
+    1,
+    8
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Amir",
+     "date": "2022-11-20",
+     "rating": 1,
+     "food": "Beef Burger",
+     "text": "ዳቦ ብቻ ውስጡ ባዶ ነው"
+    },
+    {
+     "name": "Dina Getachew",
+     "date": "2022-11-14",
+     "rating": 1,
+     "food": "Double Burger",
+     "text": "Betam yasazenale yehen kenate aletebekm edzi mulu le mulu yarere burger yemetametute yasazenale"
+    },
+    {
+     "name": "Khalid",
+     "date": "2022-10-25",
+     "rating": 5,
+     "food": "Special Burger",
+     "text": "The food was great and the right amount"
+    },
+    {
+     "name": "Aman",
+     "date": "2022-09-22",
+     "rating": 4,
+     "food": "Special Burger",
+     "text": "It tastes good ????but The patty size is small and a bit expensive to"
+    }
+   ]
+  },
+  {
+   "beuId": 793,
+   "name": "Happy Burger and Pizza",
+   "address": "Gofa Mebirat hail Condominium B38/03",
+   "lat": 8.965339,
+   "lng": 38.745301,
+   "ratingAvg": 3.22,
+   "ratingCount": 27,
+   "histogram": [
+    8,
+    7,
+    2,
+    3,
+    7
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "Le",
+     "date": "2022-12-26",
+     "rating": 2,
+     "food": "Cheese Burger",
+     "text": "Salad and tomato yet gebto nw"
+    },
+    {
+     "name": "anu",
+     "date": "2022-11-14",
+     "rating": 1,
+     "food": "Jumbo Burger",
+     "text": "I don’t recommend The burger"
+    },
+    {
+     "name": "Selam",
+     "date": "2022-11-08",
+     "rating": 5,
+     "food": "Jumbo Burger",
+     "text": "The delivery person was polite and sociable and the food was good but they forgot to send catch-ups with the burger"
+    },
+    {
+     "name": "Etenesh",
+     "date": "2022-10-25",
+     "rating": 1,
+     "food": "Jumbo Burger",
+     "text": "Mistake  all and all , \" never \" order"
+    },
+    {
+     "name": "Meron Yesma",
+     "date": "2022-08-30",
+     "rating": 5,
+     "food": "Happy Special Burger",
+     "text": "It was amazing,every one need to try it trust me"
+    },
+    {
+     "name": "Mg",
+     "date": "2022-08-05",
+     "rating": 3,
+     "food": "Jumbo Burger",
+     "text": "Chipsu l3k adelm eee beef segaw becha 3 baki nw"
+    },
+    {
+     "name": "Nina",
+     "date": "2022-08-05",
+     "rating": 1,
+     "food": "Jumbo Burger",
+     "text": "It is good but the driver toon a long time to get deliverd and the food was not fresh.so I'm not happy ????????????"
+    },
+    {
+     "name": "David",
+     "date": "2022-07-21",
+     "rating": 4,
+     "food": "Jumbo Burger",
+     "text": "The burger was best but the fries were not fresh"
+    }
+   ]
+  },
+  {
+   "beuId": 766,
+   "name": "Sun Juice bar",
+   "address": "kazanchis Urael  ethio ceramics",
+   "lat": 9.013951133575993,
+   "lng": 38.77431149161255,
+   "ratingAvg": 4.25,
+   "ratingCount": 20,
+   "histogram": [
+    14,
+    2,
+    1,
+    1,
+    2
+   ],
+   "seedMatch": false,
+   "comments": [
+    {
+     "name": "ru",
+     "date": "2022-11-23",
+     "rating": 1,
+     "food": "Super Juice",
+     "text": "You sent me the wrong juice. It was not what I ordered"
+    },
+    {
+     "name": "zoe",
+     "date": "2022-10-29",
+     "rating": 1,
+     "food": "Peanut Butter Delight |Fasting",
+     "text": "The worst juice i ever drink 😡"
+    }
+   ]
+  }
+ ]
+}

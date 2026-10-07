@@ -48,3 +48,6 @@ next-env.d.ts
 # temp
 /exported
 
+
+# visual companion scratch
+.superpowers/
