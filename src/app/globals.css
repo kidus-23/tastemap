@@ -80,6 +80,41 @@ body {
   outline-offset: 2px;
 }
 
+/* beU favorites pins — same leaf shape as the ranking pins, but food emoji
+   identity and always un-numbered */
+.tm-pin-beu {
+  background: var(--pine);
+  color: #fff;
+  font-size: 13px;
+  border-style: dashed;
+}
+.tm-pin-beu-active {
+  outline: 3px solid var(--pine);
+  outline-offset: 2px;
+  z-index: 1000 !important;
+}
+
+/* the pop-out card that opens over the map when a pin is hit */
+.beu-card {
+  position: absolute;
+  z-index: 1200;
+  width: 228px;
+  animation: beu-card-pop 0.18s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+.beu-card--wide {
+  width: 280px;
+}
+@keyframes beu-card-pop {
+  from {
+    opacity: 0;
+    transform: translateY(8px) scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 /* Tame Leaflet's default focus + cluster text */
 .leaflet-container {
   font-family: var(--font-geist-sans), system-ui, sans-serif;

@@ -1,16 +1,16 @@
 services:
   db:
     image: postgres:16-alpine
-    container_name: tastemap-db
+    container_name: addis-taste-db
     restart: unless-stopped
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: tastemap
+      POSTGRES_DB: addistaste
     ports:
       - "5433:5432"
     volumes:
-      - tastemap-pgdata:/var/lib/postgresql/data
+      - addistaste-pgdata:/var/lib/postgresql/data
 
 volumes:
-  tastemap-pgdata:
+  addistaste-pgdata:

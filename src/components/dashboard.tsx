@@ -30,6 +30,17 @@ export function Dashboard() {
   const [mobileView, setMobileView] = useState<"list" | "map">("list");
   const [surpriseId, setSurpriseId] = useState<string | null>(null);
   const [spinning, setSpinning] = useState(false);
+  // beU favorites layer — desktop default on, phone default off (screen room).
+  // Deferred a frame (same pattern as MapPanel's attachEpoch): matchMedia isn't
+  // available at SSR time, and read-after-hydration keeps the button markup
+  // consistent between server and client HTML.
+  const [showBeu, setShowBeu] = useState(false);
+  useEffect(() => {
+    const raf = requestAnimationFrame(() => {
+      setShowBeu(window.matchMedia("(min-width: 1024px)").matches);
+    });
+    return () => cancelAnimationFrame(raf);
+  }, []);
 
   useEffect(() => {
     void tm.init();
@@ -79,7 +90,7 @@ export function Dashboard() {
   if (tm.initializing) {
     return (
       <div className="flex flex-1 items-center justify-center bg-paper">
-        <p className="font-display animate-pulse text-2xl text-pine">Tastemap…</p>
+      <p className="font-display animate-pulse text-2xl text-pine">Addis-Taste…</p>
       </div>
     );
   }
@@ -165,7 +176,18 @@ export function Dashboard() {
             selectedId={tm.selectedId}
             hoveredId={hoveredId}
             onSelect={(id) => tm.select(id)}
+            beuLayer={showBeu}
           />
+          <button
+            type="button"
+            onClick={() => setShowBeu((v) => !v)}
+            aria-pressed={showBeu}
+            className={`absolute bottom-3 right-3 z-[500] rounded-full border px-3.5 py-2 text-xs font-semibold shadow ${
+              showBeu ? "border-pine bg-pine text-white" : "border-line bg-card/95 text-ink hover:border-pine"
+            }`}
+          >
+            🍽 beU favorites {showBeu ? "on" : "off"}
+          </button>
           <div className="pointer-events-none absolute right-3 top-3 z-[500] hidden rounded-xl border border-line bg-card/95 px-3 py-2 text-xs shadow lg:block">
             <p className="flex items-center gap-1.5 font-semibold">
               <span className="h-2.5 w-2.5 rounded-full bg-pine" /> been · numbered by rank

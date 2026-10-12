@@ -26,7 +26,7 @@ export function TopBar({
           href="/"
           className="font-display shrink-0 text-xl font-semibold tracking-tight text-pine sm:text-2xl"
         >
-          Tastemap<span className="text-mustard">.</span>
+          Addis-Taste<span className="text-mustard">.</span>
         </Link>
         <span className="hidden shrink-0 rounded-full border border-line bg-card px-3 py-1 text-xs font-semibold text-muted sm:inline">
           Addis Ababa

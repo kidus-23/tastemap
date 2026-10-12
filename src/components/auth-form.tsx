@@ -38,7 +38,7 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
     <main className="flex min-h-full flex-1 items-center justify-center px-6 py-16">
       <div className="w-full max-w-sm rounded-2xl border border-line bg-card p-8 shadow-sm">
         <Link href="/" className="font-display text-2xl font-semibold text-pine">
-          Tastemap<span className="text-mustard">.</span>
+          Addis-Taste<span className="text-mustard">.</span>
         </Link>
         <h1 className="font-display mt-4 text-2xl font-semibold">
           {mode === "login" ? "Welcome back" : "Create your account"}
@@ -112,8 +112,8 @@ export function AuthForm({ mode }: { mode: "login" | "signup" }) {
           )}
         </p>
         <p className="mt-3 text-xs text-muted">
-          Demo account with the seeded Addis map: <code>demo@tastemap.et</code> /{" "}
-          <code>tastemap-demo</code>
+          Demo account with the seeded Addis map: <code>demo@addistaste.et</code> /{" "}
+          <code>addistaste-demo</code>
         </p>
       </div>
     </main>

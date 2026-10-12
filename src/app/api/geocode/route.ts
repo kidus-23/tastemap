@@ -18,7 +18,7 @@ export async function GET(request: Request) {
 
   const res = await fetch(url, {
     headers: {
-      "User-Agent": "TastemapDemo/1.0 (local development; not for production traffic)",
+      "User-Agent": "AddisTasteDemo/1.0 (local development; not for production traffic)",
       Accept: "application/json",
       "Accept-Language": "en",
     },

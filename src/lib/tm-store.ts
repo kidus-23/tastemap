@@ -348,7 +348,7 @@ export const useTm = create<TmStore>()(
       },
     }),
     {
-      name: "tastemap-guest-v1",
+      name: "addistaste-v1",
       partialize: (state) => ({
         // only guest data is persisted — account data always comes from the DB
         ...(state.mode === "guest"

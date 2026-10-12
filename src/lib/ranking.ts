@@ -1,4 +1,4 @@
-// Ranking engine — the honest part of Tastemap.
+// Ranking engine — the honest part of Addis-Taste.
 //
 // Rank is DERIVED from stored head-to-head comparisons. A place beats
 // another if it beat it directly or transitively; unresolved pairs fall

@@ -3,7 +3,7 @@ import { SignJWT, jwtVerify } from "jose";
 import bcrypt from "bcryptjs";
 import { db } from "./db";
 
-const COOKIE_NAME = "tastemap_session";
+const COOKIE_NAME = "addistaste_session";
 const secret = () => new TextEncoder().encode(process.env.JWT_SECRET ?? "dev-only-secret-change-me");
 
 export interface SessionUser {

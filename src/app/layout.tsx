@@ -19,9 +19,9 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: "Tastemap — your Addis Ababa top tables",
+  title: "Addis-Taste — your Addis Ababa top tables",
   description:
-    "A personal restaurant map and ranking app for Addis Ababa. Log every place you've eaten, rank it through head-to-head comparisons, and map the places you still want to try.",
+    "A personal restaurant map and ranking app for Addis Ababa. Log every place you've eaten, rank it through head-to-head comparisons, map the places you still want to try, and see how they rate on beU delivery.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

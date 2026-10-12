@@ -61,18 +61,19 @@ export function popScore(place: BeuPlace): number {
  *  matches just any burger joint. Returns null when beU has no verified
  *  data for the venue. */
 export function beuFor(name: string): BeuMatch | null {
-  const seedTokens = identityTokens(name);
+  const seedTokens = beuIdentityTokens(name);
   if (seedTokens.length === 0) return null;
   let best: { place: BeuPlace; sim: number } | null = null;
   for (const place of ALL_PLACES) {
-    const sim = simScore(seedTokens, identityTokens(place.name));
+    const sim = beuNameSimilarity(name, place.name);
     if (best === null || sim > best.sim) best = { place, sim };
   }
   if (!best || best.sim < 0.6) return null;
   return { place: best.place, comments: best.place.comments };
 }
 
-/** distinctiveness helpers — identical rules to the importer's matcher */
+/** distinctiveness helpers — identical rules to the importer's matcher;
+ *  0..1, ≥ 0.6 counts as the same venue (threshold matches import-beu.mjs). */
 const GENERIC = new Set([
   "restaurant", "ristorante", "pizzeria", "cafe", "coffee", "burger", "pizza",
   "hotel", "lounge", "kitchen", "bar", "food", "fast", "juice",
@@ -86,7 +87,7 @@ const NEIGHBORHOODS = new Set([
   "22", "4", "6", "1",
 ]);
 
-function identityTokens(s: string): string[] {
+export function beuIdentityTokens(s: string): string[] {
   const segments = s
     .split(/[|/:,\u2014\u2013]+/)
     .map((seg) => seg.trim())
@@ -96,9 +97,12 @@ function identityTokens(s: string): string[] {
     .filter((t) => t.length >= 3 && !GENERIC.has(t));
 }
 
-function simScore(seed: string[], beu: string[]): number {
+export function beuNameSimilarity(a: string, b: string): number {
+  const seed = beuIdentityTokens(a);
+  const beu = beuIdentityTokens(b);
+  if (seed.length === 0) return 0;
   const hits = seed.filter((t) =>
-    beu.some((b) => b === t || (b.length >= 3 && b.startsWith(t)))
+    beu.some((x) => x === t || (x.length >= 3 && x.startsWith(t)))
   ).length;
   return hits / seed.length;
 }

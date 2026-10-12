@@ -1,4 +1,4 @@
-// Seeds a demo account (demo@tastemap.et / tastemap-demo) whose map is the
+// Seeds a demo account (demo@addistaste.et / addistaste-demo) whose map is the
 // exact Addis Ababa guest dataset, so the server-backed app can be demoed
 // immediately after signup-free login.
 
@@ -8,18 +8,18 @@ import bcrypt from "bcryptjs";
 import { ADDIS_COMPARISONS, ADDIS_PLACES } from "../src/data/addis-seed";
 
 const adapter = new PrismaPg({
-  connectionString: process.env.DATABASE_URL ?? "postgresql://postgres:postgres@localhost:5433/tastemap",
+  connectionString: process.env.DATABASE_URL ?? "postgresql://postgres:postgres@localhost:5433/addistaste",
 });
 const prisma = new PrismaClient({ adapter });
 
 async function main() {
-  const email = "demo@tastemap.et";
+  const email = "demo@addistaste.et";
   const existing = await prisma.user.findUnique({ where: { email } });
   if (existing) {
     await prisma.user.delete({ where: { email } }); // idempotent reseed
   }
 
-  const passwordHash = await bcrypt.hash("tastemap-demo", 12);
+  const passwordHash = await bcrypt.hash("addistaste-demo", 12);
   const user = await prisma.user.create({
     data: { email, name: "Demo Diner", passwordHash },
   });

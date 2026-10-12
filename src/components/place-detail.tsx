@@ -1,6 +1,7 @@
 "use client";
 
 import { headToHeadStats } from "@/lib/ranking";
+import { BEU_RETRIEVED, beuFor, mapsDirectionsUrl } from "@/lib/beu";
 import { CuisineBadge, priceLabel } from "./place-card";
 import type { PlaceRecord } from "@/lib/types";
 
@@ -74,6 +75,67 @@ export function PlaceDetail({
         </div>
 
         {place.note && <p className="mt-4 rounded-lg bg-paper p-3 text-sm leading-6">{place.note}</p>}
+
+        {(() => {
+          const beu = beuFor(place.name);
+          if (!beu) {
+            return place.status === "WANT_TO_TRY" ? (
+              <p className="mt-4 text-center text-xs text-muted">
+                not on beU — add a note here when you visit
+              </p>
+            ) : null;
+          }
+          const maxHist = Math.max(...beu.place.histogram, 1);
+          return (
+            <div className="mt-4 rounded-xl border border-line bg-paper p-3">
+              <p className="flex items-baseline gap-2 font-display text-sm font-semibold">
+                On beU
+                <span className="text-mustard-deep">
+                  ★ {beu.place.ratingAvg.toFixed(1)}
+                </span>
+                <span className="text-xs font-normal text-muted">
+                  {beu.place.ratingCount} {beu.place.ratingCount === 1 ? "order" : "orders"} rated
+                </span>
+              </p>
+              {/* 5→1 histogram, tallest bar = most-awarded star */}
+              <div className="mt-2 flex h-8 items-end gap-1" aria-label="beU rating spread">
+                {beu.place.histogram.map((n, i) => (
+                  <div key={i} className="flex flex-1 flex-col items-center gap-0.5">
+                    <div
+                      className="w-full rounded-t bg-pine/80"
+                      style={{ height: `${Math.max((n / maxHist) * 100, n > 0 ? 8 : 0)}%` }}
+                    />
+                    <span className="text-[9px] text-muted">{5 - i}★</span>
+                  </div>
+                ))}
+              </div>
+              <ul className="mt-2 space-y-1.5">
+                {beu.comments.map((c, i) => (
+                  <li key={i} className="rounded-lg bg-card px-2.5 py-2 text-[12px] leading-5">
+                    <span className="font-semibold text-mustard-deep">{c.rating}★</span>{" "}
+                    “{c.text}”
+                    <span className="text-muted">
+                      {" "}
+                      — {c.name}
+                      {c.food ? `, on ${c.food}` : ""} ({c.date})
+                    </span>
+                  </li>
+                ))}
+              </ul>
+              <a
+                href={mapsDirectionsUrl(beu.place.name, beu.place.address)}
+                target="_blank"
+                rel="noreferrer"
+                className="mt-2 block rounded-full bg-pine px-4 py-2 text-center text-sm font-semibold text-white hover:bg-pine-deep"
+              >
+                🧭 Directions
+              </a>
+              <p className="mt-1.5 text-center text-[10px] text-muted">
+                beU snapshot · {BEU_RETRIEVED} · reviewer names shortened, contacts removed
+              </p>
+            </div>
+          );
+        })()}
 
         <div className="mt-4 grid grid-cols-2 gap-2 text-center">
           <div className="rounded-xl bg-pine-soft px-3 py-2">

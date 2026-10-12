@@ -8,7 +8,7 @@ export default function Landing() {
           Addis Ababa · your top tables
         </p>
         <h1 className="font-display mt-4 text-5xl font-semibold leading-tight text-pine sm:text-6xl">
-          Tastemap<span className="text-mustard">.</span>
+          Addis-Taste<span className="text-mustard">.</span>
         </h1>
         <p className="mx-auto mt-5 max-w-xl text-lg leading-8 text-ink/80">
           Every place you&apos;ve eaten in Addis Ababa, on one honest map. No stars — a
