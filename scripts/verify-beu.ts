@@ -33,7 +33,8 @@ assert.ok(
 );
 console.log(`1. snapshot (${places.length} venues, ${favorites} in the favorites layer) ✓`);
 
-// 2. every comment's keys are exactly the whitelisted set — no PII can slip
+// 2. every comment's keys are exactly the whitelisted set — no PII can slip —
+//    and names are single tokens (first names only, never "First Last")
 const allowed = new Set(["name", "date", "rating", "food", "text"]);
 for (const p of places) {
   for (const c of p.comments) {
@@ -41,13 +42,31 @@ for (const p of places) {
       Object.keys(c).every((k) => allowed.has(k)),
       `comment key leak in venue ${p.beuId}: ${Object.keys(c).join(", ")}`
     );
+    assert.ok(!/\s/.test(c.name), `full name leaked in venue ${p.beuId}: "${c.name}"`);
   }
 }
-console.log("2. comment keys strictly whitelisted ✓");
+console.log("2. comment keys whitelisted + names are first-names-only ✓");
 
-// 3. no contact-shaped string anywhere in the snapshot
+// 3. no contact-shaped string in reviewer comment text (the only place a
+//    reviewer would leave one; scanning the whole snapshot false-positives on
+//    lat/lng coordinates and IDs)
 const raw = JSON.stringify(rifleSnapshot);
-assert.ok(!/\+251\s?\d{2,}/.test(raw), "phone number leaked into snapshot");
+const PHONE = /\+251\s?\d{2,}|09\d{8}|0?7\d{8}/i;
+let contactLeak: string | null = null;
+for (const p of places) {
+  for (const c of p.comments) {
+    if (PHONE.test(c.text)) {
+      contactLeak = `venue ${p.beuId} comment: ${c.text}`;
+      break;
+    }
+    if (PHONE.test(c.name)) {
+      contactLeak = `venue ${p.beuId} name: ${c.name}`;
+      break;
+    }
+  }
+  if (contactLeak) break;
+}
+assert.ok(!contactLeak, `local-format phone number leaked into snapshot: ${contactLeak}`);
 assert.ok(!/firebase_token/.test(raw), "firebase token leaked into snapshot");
 assert.ok(!/@gmail|@yahoo|@hotmail/.test(raw), "email leaked into snapshot");
 console.log("3. no phone / token / email strings ✓");

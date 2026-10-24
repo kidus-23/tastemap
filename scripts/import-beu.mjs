@@ -37,10 +37,14 @@ const HEADERS = {
  *  verification state, order history…) is dropped by construction. */
 const COMMENT_FIELDS = ["name", "date", "rating", "food", "text"];
 
-/** Strip a raw API review down to the whitelisted shape. */
+/** Strip a raw API review down to the whitelisted shape. The name field can
+ *  carry a full "First Last" string — only the first token survives. */
 export function scrubComment(raw) {
   return {
-    name: typeof raw?.customer?.f_name === "string" ? raw.customer.f_name : "",
+    name:
+      typeof raw?.customer?.f_name === "string"
+        ? raw.customer.f_name.trim().split(/\s+/)[0] ?? ""
+        : "",
     date: typeof raw?.created_at === "string" ? raw.created_at.slice(0, 10) : "",
     rating: Number(raw?.rating) || 0,
     food: typeof raw?.food_name === "string" && raw.food_name ? raw.food_name : null,
@@ -50,12 +54,10 @@ export function scrubComment(raw) {
 
 /** True when a scrubbed comment is worth showing. */
 export function commentUsable(c) {
-  return (
-    c.text.length >= 15 &&
-    c.text !== "No comment" &&
-    c.rating > 0 &&
-    /\+251|@gmail|@yahoo|@hotmail|firebase_token/.test(c.text) === false
-  );
+  // international and Ethiopian local phone formats, common freemail hosts,
+  // and any stray firebase token string all make a comment unshowable
+  const CONTACTS = /\+251|09\d{8}|0?7\d{8}|@gmail|@yahoo|@hotmail|firebase_token/i;
+  return c.text.length >= 15 && c.text !== "No comment" && c.rating > 0 && !CONTACTS.test(c.text);
 }
 
 /** Google Maps directions that resolve a POI, not bare coordinates. */
@@ -145,7 +147,7 @@ export function selftest() {
     food_name: "Special Kitfo",
     created_at: "2026-09-12T18:31:00.000Z",
     customer: {
-      f_name: "Abel",
+      f_name: "Abel Tesfaye",
       phone: "+251911223344",
       email: "abel@gmail.com",
       cm_firebase_token: "dKzICcbUE0iwpCKxYDBD20:APA91b…",
@@ -155,7 +157,8 @@ export function selftest() {
   };
   const scrubbed = scrubComment(dirty);
   assertKeys(scrubbed, COMMENT_FIELDS, "scrubComment keeps only whitelisted keys");
-  if (scrubbed.name !== "Abel") throw new Error("selftest: first name lost");
+  // a "First Last" name keeps only the first token — no full names in the repo
+  if (scrubbed.name !== "Abel") throw new Error("selftest: first name lost or full name kept");
   // PII embedded in the comment text itself → the comment is never published
   if (commentUsable(scrubbed)) throw new Error("selftest: PII-bearing text published");
   const clean = scrubComment({ ...dirty, comment: "Good food, fast delivery, will order again" });
@@ -225,7 +228,7 @@ function assertKeys(obj, keys, label) {
 async function api(ep) {
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
-      const res = await fetch(API + ep, { headers: HEADERS, timeout: 30000 });
+      const res = await fetch(API + ep, { headers: HEADERS, signal: AbortSignal.timeout(30000) });
       if (!res.ok) throw new Error(`${res.status} on ${ep.split("?")[0]}`);
       return await res.json();
     } catch (e) {
