@@ -1,6 +1,10 @@
 // Real-browser screenshots for the README.
 // Start the prod server first:  npm run start -- -p 3200
 // Then run:                     npx tsx scripts/screenshot.mts
+//
+// beU layer: the dashboard-desktop / mobile-map shots capture the 🍽 favorites
+// layer (toggle bottom-right); detail-desktop uses Sichuan Restaurant so the
+// "On beU" enrichment block shows in the sheet.
 import { mkdirSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -86,20 +90,23 @@ await shot(page, "landing.png");
 
 await page.goto(BASE + "/dashboard", GOTO);
 await page.waitForSelector("text=Your top tables", { timeout: 30000 });
+// the beU favorites layer turns on one frame after mount on desktop widths
+await page.waitForSelector(".tm-pin-beu", { timeout: 30000 });
 await tilesLoaded(page);
-step("dashboard loaded");
+step("dashboard loaded (beU layer on)");
 await shot(page, "dashboard-desktop.png");
 
-// detail sheet — Yod Abyssinia is the #1 card
-await page.getByRole("button", { name: /Yod Abyssinia/ }).first().click();
-step("yod card clicked");
-await page.waitForTimeout(400);
+// detail sheet — Sichuan Restaurant is a beU seed match, so the "On beU"
+// enrichment block renders (Yod Abyssinia is not in the snapshot)
+await page.getByRole("button", { name: /Sichuan Restaurant/ }).first().click();
+step("sichuan card clicked");
+await page.waitForSelector("text=On beU", { timeout: 10000 });
 await shot(page, "detail-desktop.png");
 
 // compare flow: inject a pending been place into the guest store, reload,
 // open its detail, hit "Rank it now"
 await page.evaluate(() => {
-  const key = "tastemap-guest-v1";
+  const key = "addistaste-v1";
   const parsed = JSON.parse(localStorage.getItem(key)!);
   parsed.state.places.push({
     id: "pending-shot",
@@ -144,7 +151,7 @@ await tilesLoaded(page);
 await shot(page, "compare-settled.png");
 
 // fresh guest seed for the mobile shots
-await page.evaluate(() => localStorage.removeItem("tastemap-guest-v1"));
+await page.evaluate(() => localStorage.removeItem("addistaste-v1"));
 await ctxD.close();
 
 // ── phone ────────────────────────────────────────────────────────────────
@@ -163,6 +170,12 @@ step("map tab clicked");
 await mp.waitForSelector(".tm-pin", { timeout: 20000 });
 await tilesLoaded(mp);
 await mp.waitForTimeout(1500); // repin/reposition after invalidateSize
+// turn the beU layer on so the mobile-map shot shows the toggle (bottom-right)
+// with dashed 🍽 pins visible
+await mp.getByRole("button", { name: /beU favorites off/ }).click();
+await mp.waitForSelector(".tm-pin-beu", { timeout: 10000 });
+step("beU layer toggled on");
+await mp.waitForTimeout(700);
 await shot(mp, "mobile-map.png");
 
 await browser.close();
